@@ -1001,12 +1001,12 @@
 
 		.wrapper.style1 {
 
-			background-color: #3ba666;
-			-moz-background-image: linear-gradient(60deg, #ff8800 50%, #942b27 50%);
-			-webkit-background-image: linear-gradient(60deg, #ff8800 50%, #942b27 50%);
-			-o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			background-image: linear-gradient(60deg, #b74028 50%, #942b27 50%);
+			background-color: white;
+			-moz-background-image: linear-gradient(60deg, white 50%, white 50%);
+			-webkit-background-image: linear-gradient(60deg, white 50%, white 50%);
+			-o-background-image: linear-gradient(60deg, white 50%, white 50%);
+			-ms-background-image: linear-gradient(60deg, white 50%, white 50%);
+			background-image: linear-gradient(60deg, white 50%, white 50%);
 			color: #ffffff;
 		}
 
