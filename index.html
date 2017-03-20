@@ -18,8 +18,9 @@
 		
 		<script type="text/javascript">
 $(function () {
-        $('#container').highcharts({
-            chart: { backgroundColor:'transparent',
+	var chart = new Highcharts.Chart({
+	    	
+            chart: { backgroundColor:'transparent', renderTo: 'container',
                 type: 'area'
             },
             title: {
