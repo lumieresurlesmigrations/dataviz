@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lumière sur les migrations</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script type="text/javascript" src="counter.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+		<!-- Irène js -->
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"> </script>
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+		<!-- Fin -->
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Interphase</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>Lumière sur les migrations</h2>
+				<p></p>
+				<ul class="actions">
+					<li>
+						<a href="#" class="button big">Learn More</a>
+					</li>
+				</ul>
+			</section>
+
+		<!-- Graphe intro Irène -->
+
+			<section id="one" class="wrapper style1 align-center">
+				<div class="container">
+					<header>
+						<h2>Consectetur adipisicing elit</h2>
+						<p>Lorem ipsum dolor sit amet adipisicing elit. Delectus consequatur sed tempus.</p>
+					</header>
+					
+					<div id="container" style="min-width: 900px; height: 600px; margin: 0 auto"></div>
+				</div>
+
+				 
+        
+        <script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            chart: { backgroundColor:'transparent',
+                type: 'area'
+            },
+            title: {
+                text: 'Une hausse vertigineuse de déplacements de populations dans le monde'
+            },
+            subtitle: {
+                text: 'Source : <a href="http://popstats.unhcr.org/en/overview">UNHCR</a> '
+            },
+            xAxis: {
+                categories: ['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014','2015'],
+                tickmarkPlacement: 'on',
+                title: {
+                    enabled: false
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'En millions de personnes'
+                },
+                labels: {
+                    formatter: function() {
+                        return this.value / 1000000;
+                    }
+                }
+            },
+            tooltip: {
+                shared: false,
+             	 followPointer: false,
+                valueSuffix: ' individus '
+            },
+            plotOptions: {
+                areaspline: {
+                    stacking: 'normal',
+                    lineColor: '#666666',
+                    lineWidth: 2,
+                    marker: {
+                        lineWidth: 2,
+                        lineColor: '#666666'
+                    }
+                }
+            },
+            series: [{
+                type : 'spline',
+                name: 'Réfugiés',
+             		marker: {
+            		symbol: 'square'
+        								},
+               	color: '#0d233a',
+                data: [12129572, 12116835, 10594055, 9592795, 9573397, 8661994, 9877703, 11390930, 10489812, 10396538, 10549681, 10404804, 10497957, 11699279,14385316,16121427]
+            }, { type : 'spline',
+                 color: '#f45b5b',
+                name: 'Déplacés internes',
+                data: [
+                  { y: 5998501,
+            			name:'2000: '
+        }, { y: 5096502,
+            			name:'2001: '
+        }, 
+                   4646641, 4181701,5426539, 6616791, {        y: 12794268,
+            			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
+            			marker: {
+                		symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+            }
+        },   13740317, 14442227, 15628057, 14697804, {
+            y: 15473378,
+             name:'2011, début du conflit syrien',
+            marker: {
+                symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+            }
+        }, 17670368 , 23925555,32274619,37494172]
+            }, { type : 'spline',
+                color: '#2b908f',
+                name: 'Demandeurs d\'asile',
+                data: [947926, 943980, 1093755, 996448, 885249, 802174, 741291, 741110, 825043, 989169, 837445, 897021, 942797, 1164449,1804465,3219941]
+            },   ]
+        });
+    });
+			</script>    
+			</section>
+
+		<!-- Graphe Adeline -->
+
+			<section id="two" class="wrapper style1 align-center">
+				<div class="container">
+					<header>
+						<h2>Consectetur adipisicing elit</h2>
+						<p>Lorem ipsum dolor sit amet adipisicing elit. Delectus consequatur sed tempus.</p>
+					</header>
+
+					<div class="infogram-embed" data-id="welcome_your_first_project-25283" data-type="interactive" data-title="Lumière sur les migrations"></div><script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script"),d=o[0],r=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=r+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var a=e.createElement("script");a.async=1,a.id=s,a.src=i,d.parentNode.insertBefore(a,d)}}(document,0,"infogram-async","//e.infogr.am/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogr.am/welcome_your_first_project-25283" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Lumière sur les migrations</a><br><a href="https://infogr.am/create/bar-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=bar_chart" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Create bar charts</a></div>
+
+
+<!-- Partie Quentin -->
+
+<section id="one" class="wrapper style12 align-center">
+				<div class="container">
+					<header>
+					</header>
+
+<div class="compteur" id="compteur" style="min-width: 900px; height: 100px; margin: 0 auto ; background:transparent;">
+
+<img class="deplace" width="150" height="130" src="migrant.jpg" alt="" style="border:2px black solid; margin-left:5px; margin-right: 5px;  box-shadow: 3px 3px 3px black;"/>
+<div class="texte">
+<font size="+2">Depuis que vous avez ouvert cette page </font>
+<span id="counter">000</span>
+
+<font size="+2"> personnes dans le monde ont été déplacées pour cause de conflit ou de catastrophe climatique</font>
+
+<script type="text/javascript">
+counterID=setInterval(counterUpdate, 2500)
+</script>
+
+</div>
+</div>
+</div>
+</section>
+
+<section id="one" class="wrapper style12 align-center">
+				<div class="container">
+					<header>
+					</header>
+
+
+<div class="gen2">
+
+    <img class="element2" width="100" height="100" src="inconnu.jpg" alt="" style="border:2px black solid; margin-left:15px;   box-shadow: 3px 3px 3px black;"/>
+
+	<div class="element222"> <h3 class="triangle-right left0" >  Ce que nos candidats ont dit         
+
+</h3> 
+
+
+</div>
+</div>
+
+
+<div class="gen">
+
+<div class="roundedImage"> 
+
+    <img class="element" width="100" height="100" data-toggle="tooltip" src="lepen.png" alt="Marine Le Pen" title="Marine Le Pen" style="border:2px black solid; margin-left:15px;    box-shadow: 3px 3px 3px  rgba(227,0,27,0.5);"/>
+
+	<div class="element2"> <p class="triangle-right  left2" width="100">Contre la droite du fric et la gauche du fric, je suis la candidate de la France du peuple !
+
+</p> </div>
+
+
+</div>
+
+<div class="devrait1" style='background-color: transparent;'> En vérité, MLP se réfère a tel chiffre <br>Or ce chiffre n'est pas correct dans le sens où <br>Elles auraient du dire :"Blablabla" 
+</div>
+</div>
+
+<div class="gen">
+
+<div class="roundedImage"> 
+
+    <img class="element" width="100" height="100" data-toggle="tooltip" title="François Fillon" src="fillon.png" alt="" style="border:2px black solid; margin-left:15px;   box-shadow: 3px 3px 3px rgba(7,86,152,0.8);"/>
+
+	<div class="element2"> <p class="triangle-right left"">L’immense majorité des personnes qui étaient à Calais ou à Paris ne sont pas en réalité des demandeurs d’asile
+
+</p> </div>
+
+
+</div>
+
+<div class="devrait1" style="background-color:  transparent"> Pourtant, selon l’OFPRA, «depuis octobre 2015, 80% des 7 000 personnes mises à l’abri dans les CAO (Centres d’accueil et d’orientation) ont déposé une demande d’asile selon les données du ministère de l’intérieur»
+</div>
+</div>
+<!-- Copé -->
+<div class="gen">
+
+<div class="roundedImage" > 
+
+    <img class="element" width="100" height="100" data-toggle="tooltip"  data-placement="top" title="Jean-François Copé" src="cope.jpg" alt="" style="border:2px black solid; margin-left:15px;   box-shadow: 3px 3px 3px rgba(7,86,152,0.8);"/>
+
+  <div class="element2"> <p class="triangle-right left"">On est aujourd’hui le premier <a class="def" href="#" data-toggle="tooltip" data-placement="top" title="Les hotspots sont des centres d’accueil de migrants mis en place en Grèce et en Italie, à la demande de l’UE pour endiguer l’afflux migratoire en direction du continent">hotspot </a> d’Europe
+
+</p> </div>
+
+
+</div>
+
+<div class="devrait1" style="background-color:  transparent"> Calais ne saurait être considéré comme un hotspot puisque la structure n'était pas gérée par l'Etat et n'avait pas vocation à permettre l'enregistrement des migrants.<br> De plus, affirmer que Calais est le premier centre pour migrants d’Europe n’a pas plus de sens. En Grèce, le Haut-commissariat aux réfugiés des Nations unies a enregistré, entre janvier et novembre 2016, 162 363 arrivées. En France, le gouvernement estime avoir mis à l’abri «plus de 6000 migrants».
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+
+
+
+<!-- Graphe Aliénor -->
+
+<section id="two" class="wrapper style1 align-center">
+				<div class="container">
+					<header>
+						<h2>Consectetur adipisicing elit</h2>
+						<p>Lorem ipsum dolor sit amet adipisicing elit. Delectus consequatur sed tempus.</p>
+					</header>
+
+<!-- Frise : Attention, le fond n'est pas transparent-->
+
+<iframe src="https://www.preceden.com/timelines/301700/embed" width="100%" height="394" frameborder="0">
+
+ <a href="https://www.preceden.com" target="_top">Preceden Timeline Maker</a>
+
+</iframe>
+
+
+<!-- Demandeurs d'asile -->
+
+<div class="infogram-embed" data-id="asile-92666214977" data-type="interactive" data-title="Asile"></div><script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script"),r=o[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var a=e.createElement("script");a.async=1,a.id=s,a.src=i,r.parentNode.insertBefore(a,r)}}(document,"script","infogram-async","//e.infogr.am/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogr.am/asile-92666214977" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Asile</a><br><a href="https://infogr.am/create/line-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=line_chart" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Create line charts</a></div>
+
+
+
+
+		<!-- Graphe 3 -->
+			<section id="two" class="wrapper style2 align-center">
+				<div class="container">
+					<header>
+						<h2>Lorem ipsum dolor sit</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
+					</header>
+					<div class="row">
+						<section class="feature 6u 12u$(small)">
+							<img class="image fit" src="images/pic01.jpg" alt="" />
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsa voluptate, quae quibusdam. Doloremque similique, reiciendis sit quibusdam aperiam? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</section>
+						<section class="feature 6u$ 12u$(small)">
+							<img class="image fit" src="images/pic02.jpg" alt="" />
+							<h3 class="title">Esse, fugiat, in</h3>
+							<p>Natus perspiciatis fugit illum porro iusto fuga nam voluptas minima voluptates deserunt, veniam reiciendis harum repellat necessitatibus. Animi, adipisci qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</section>
+						<section class="feature 6u 12u$(small)">
+							<img class="image fit" src="images/pic03.jpg" alt="" />
+							<h3 class="title">Voluptates, repudiandae, dolor</h3>
+							<p>Voluptatibus repellendus tempora, quia! Consequuntur atque, rerum quis, ullam labore officiis ipsa beatae dolore, assumenda eos harum repudiandae, qui ab! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</section>
+						<section class="feature 6u$ 12u$(small)">
+							<img class="image fit" src="images/pic04.jpg" alt="" />
+							<h3 class="title">Eveniet, reiciendis, veniam</h3>
+							<p>Rem nulla molestiae inventore quibusdam repudiandae doloremque eveniet ullam, qui autem possimus saepe laudantium numquam sapiente vel. Repudiandae, nihil tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</section>
+					</div>
+					<footer>
+						<ul class="actions">
+							<li>
+								<a href="#" class="button alt big">Learn More</a>
+							</li>
+						</ul>
+					</footer>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Lorem ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, cumque!</p>
+							<ul class="alt">
+								<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+								<li><a href="#">Quod adipisci perferendis et itaque.</a></li>
+								<li><a href="#">Itaque eveniet ullam, veritatis reiciendis?</a></li>
+								<li><a href="#">Accusantium repellat accusamus a, soluta.</a></li>
+							</ul>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>Nostrum, repellat!</h3>
+							<p>Tenetur voluptate exercitationem eius tempora! Obcaecati suscipit, soluta earum blanditiis.</p>
+							<ul class="alt">
+								<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+								<li><a href="#">Id inventore, qui necessitatibus sunt.</a></li>
+								<li><a href="#">Deleniti eum odit nostrum eveniet.</a></li>
+								<li><a href="#">Illum consectetur quibusdam eos corporis.</a></li>
+							</ul>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							<h3>Contact Us</h3>
+							<ul class="icons">
+								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon rounded fa-pinterest"><span class="label">Pinterest</span></a></li>
+								<li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Address</h3>
+									1234 Somewhere Road<br>
+									Nashville, TN 00000
+								</li>
+								<li>
+									<h3>Mail</h3>
+									<a href="#">someone@untitled.tld</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									(000) 000-0000
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>
