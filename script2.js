@@ -1,6 +1,6 @@
 $(function () {
         $('#container').highcharts({
-            chart: {
+            chart: { backgroundColor:'transparent',
                 type: 'area'
             },
             title: {
