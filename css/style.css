@@ -1319,6 +1319,7 @@ border-radius:150px;
 -moz-border-radius:150px;
 -webkit-border-radius:150px;
 border-radius:150px;
+	width:60%;
 }
 
 .roundedImage
@@ -1338,9 +1339,7 @@ border-radius:150px;
 .gen 
 {display:flex;
 flex-direction:row;
-justify-content: space-between;
-margin:1em;
-padding:1em;}
+justify-content: space-between;}
 
 .gen2 
 {   display: flex;
