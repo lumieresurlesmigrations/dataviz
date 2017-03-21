@@ -999,7 +999,7 @@
 
 	#banner2 {
 		background: url("../images/Salgado2.jpeg");
-		height:484px;
+		height:484;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
