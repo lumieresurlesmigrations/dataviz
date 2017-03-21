@@ -7,7 +7,7 @@ $(function () {
 
             chart: {
 
-                renderTo: 'alienore',
+                renderTo: 'alienore',backgroundColor:'transparent',
 
                 plotBackgroundColor: null,
 
