@@ -62,13 +62,13 @@
                    4646641, 4181701,5426539, 6616791, {        y: 12794268,
             			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
             			marker: {
-                		symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                		symbol: 'url(https://github.com/Pregoles/migmig/upload/master/images/fire.png)'
             }
         },   13740317, 14442227, 15628057, 14697804, {
             y: 15473378,
              name:'2011, début du conflit syrien',
             marker: {
-                symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                symbol: 'url(https://github.com/Pregoles/migmig/upload/master/images/fire.png)'
             }
         }, 17670368 , 23925555,32274619,37494172]
             }, { type : 'spline',
