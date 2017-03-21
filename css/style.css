@@ -1028,13 +1028,12 @@
 
 		.wrapper.style12 {
 
-			background-color: transparent;
-			-moz-background-image: linear-gradient(60deg, purple 50%, black 50%);
-			-webkit-background-image: linear-gradient(60deg, purple 50%, black 50%);
-			-o-background-image: linear-gradient(60deg, purple 50%, black 50%);
-			-ms-background-image: linear-gradient(60deg, purple 50%, black 50%);
-			/*background-image: linear-gradient(60deg, purple 50%, black 50%);*/
-			/*background: url("../images/image.jpg")*/;
+			background-color: white;
+			-moz-background-image: linear-gradient(60deg, white 50%, white 50%);
+			-webkit-background-image: linear-gradient(60deg, white 50%, white 50%);
+			-o-background-image: linear-gradient(60deg, white 50%, white 50%);
+			-ms-background-image: linear-gradient(60deg, white 50%, white 50%);
+			background-image: linear-gradient(60deg, white 50%, white 50%);
 			color: #ffffff;
 		}
 
