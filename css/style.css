@@ -46,7 +46,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #666;
+		color: #009688;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -56,9 +56,12 @@
 			color: inherit;
 			text-decoration: none;
 		}
-	h1 { font-size: 2em;
+
+	h1 {
+		font-size: 2em;
 		line-height: 1.5em;
-}
+	}
+
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
@@ -1061,13 +1064,15 @@
 			}
 
 			.wrapper.style1 h2 {
-				color: #ffffff;
+				color: #009688;
 			}
 
 			.wrapper.style1 .icon.big {
 				border-color: #ffffff;
 				margin-bottom: 0.5em;
 			}
+
+/* Deuxième couleur choisie: blanc */
 
 		.wrapper.style12 {
 
@@ -1085,13 +1090,15 @@
 			}
 
 			.wrapper.style12 h2 {
-				color: #ffffff;
+				color: #009688;
 			}
 
 			.wrapper.style12 .icon.big {
 				border-color: #ffffff;
 				margin-bottom: 0.5em;
 			}
+
+/* Troisième couleur choisie: vert = rgba(174,194,203,0.5) */
 
 .wrapper.style13 {
 
@@ -1109,7 +1116,7 @@
 			}
 
 			.wrapper.style13 h2 {
-				color: #ffffff;
+				color: #009688;
 			}
 
 			.wrapper.style13 .icon.big {
