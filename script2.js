@@ -57,9 +57,9 @@ $(function () {
                   { y: 5998501,
             			name:'2000: '
         }, { y: 5096502,
-            			name:'2001: '
+            			name:'2001: Afghanistan'
         }, 
-                   4646641, 4181701,5426539, 6616791, {        y: 12794268,
+                   4646641, {y:4181701, name :'2003 : Irak'},5426539, 6616791, {        y: 12794268,
             			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
             			marker: {
                 		symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
