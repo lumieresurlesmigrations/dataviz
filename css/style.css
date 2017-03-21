@@ -994,6 +994,46 @@
 				background-color: rgba(255, 255, 255, 0.2);
 			}
 
+/* Banner2 */
+
+	#banner2 {
+		background: url("../images/Salgado2.jpg");
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #ffffff;
+		padding: 0em 0em 0em;
+		text-align: center;
+	}
+
+		#banner2 h2 {
+			color: #ffffff;
+			font-size: 3em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#banner2 p {
+			font-size: 1.5em;
+			margin: 1.5em 0 0 0;
+		}
+
+		#banner2 .actions {
+			margin: 3em 0 0 0;
+		}
+
+		#banner2 .button {
+			background-color: transparent;
+			border: 1px solid #ffffff;
+			font-weight: 300;
+		}
+
+			#banner2 .button:hover {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
 /* Wrapper */
 
 	.wrapper {
