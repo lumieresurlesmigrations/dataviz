@@ -1000,16 +1000,16 @@
 		padding: 6em 0em 4em;
 	}
 
-/* Première couleur choisie: bleu gris = rgb(174,194,203) à rendre un peu transparent */
+/* Première couleur choisie: bleu gris = rgba(174,194,203,0.5) à rendre un peu transparent */
 
 		.wrapper.style1 {
 			
-			background-color: rgb(170,198,186);
-			-moz-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
-			-webkit-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
-			-o-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
-			-ms-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
-			background-image:linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
+			background-color: rgba(170,198,186,0.7);
+			-moz-background-image: linear-gradient(60deg, rgba(170,198,186,0.7) 50%, rgba(170,198,186,0.7) 50%);
+			-webkit-background-image: linear-gradient(60deg, rgba(170,198,186,0.7) 50%, rgba(170,198,186,0.7) 50%);
+			-o-background-image: linear-gradient(60deg, rgba(170,198,186,0.7) 50%, rgba(170,198,186,0.7) 50%);
+			-ms-background-image: linear-gradient(60deg, rgba(170,198,186,0.7) 50%, rgba(170,198,186,0.7) 50%);
+			background-image:linear-gradient(60deg, rgba(170,198,186,0.7) 50%, rgba(170,198,186,0.7) 50%);
 			color: #ffffff;
 		}
 
@@ -1052,12 +1052,12 @@
 
 .wrapper.style13 {
 
-			background-color: rgba(179,135,265,0.5);
-			-moz-background-image: linear-gradient(60deg, rgba(179,135,265,0.5) 50%,rgba(179,135,265,0.5) 50%);
-			-webkit-background-image: linear-gradient(60deg, rgba(179,135,265,0.5) 50%,rgba(179,135,265,0.5) 50%);
-			-o-background-image: linear-gradient(60deg, rgba(179,135,265,0.5) 50%,rgba(179,135,265,0.5) 50%);
-			-ms-background-image: linear-gradient(60deg, rgba(179,135,265,0.5) 50%,rgba(179,135,265,0.5) 50%);
-			background-image: linear-gradient(60deg, rgba(179,135,265,0.5) 50%,rgba(179,135,265,0.5) 50%);
+			background-color: rgba(174,194,203,0.5);
+			-moz-background-image: linear-gradient(60deg, rgba(174,194,203,0.5) 50%,rgba(174,194,203,0.5) 50%);
+			-webkit-background-image:  linear-gradient(60deg, rgba(174,194,203,0.5) 50%,rgba(174,194,203,0.5) 50%);
+			-o-background-image:  linear-gradient(60deg, rgba(174,194,203,0.5) 50%,rgba(174,194,203,0.5) 50%);
+			-ms-background-image: linear-gradient(60deg, rgba(174,194,203,0.5) 50%,rgba(174,194,203,0.5) 50%);
+			background-image:  linear-gradient(60deg, rgba(174,194,203,0.5) 50%,rgba(174,194,203,0.5) 50%);
 			color: #ffffff;
 		}
 
