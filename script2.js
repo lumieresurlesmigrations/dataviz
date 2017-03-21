@@ -12,6 +12,12 @@ $(function () {
             xAxis: {
                 categories: ['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014','2015'],
                 tickmarkPlacement: 'on',
+                    plotLines: [{
+    color: 'red', // Color value
+    dashStyle: 'longdashdot', // Style of the plot line. Default to solid
+    value: '2011', // Value of where the line will appear
+    width: 0.5 // Width of the line    
+  }],
                 title: {
                     enabled: false
                 }
