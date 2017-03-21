@@ -1001,12 +1001,12 @@
 
 		.wrapper.style1 {
 
-			background-color: rgb(198,159,159);
-			-moz-background-image: linear-gradient(60deg, rgb(198,159,159) 50%, rgb(198,159,159) 50%);
-			-webkit-background-image: linear-gradient(60deg, rgb(198,159,159) 50%, rgb(198,159,159) 50%);
-			-o-background-image: linear-gradient(60deg, rgb(198,159,159) 50%, rgb(198,159,159) 50%);
-			-ms-background-image: linear-gradient(60deg, rgb(198,159,159) 50%, rgb(198,159,159) 50%);
-			background-image:linear-gradient(60deg, rgb(198,159,159) 50%, rgb(198,159,159) 50%);
+			background-color: rgb(128,189,247);
+			-moz-background-image: linear-gradient(60deg, rgb(128,189,247) 50%, rgb(128,189,247) 50%);
+			-webkit-background-image: linear-gradient(60deg, rgb(128,189,247) 50%, rgb(128,189,247) 50%);
+			-o-background-image: linear-gradient(60deg, rgb(128,189,247) 50%, rgb(128,189,247) 50%);
+			-ms-background-image: linear-gradient(60deg, rgb(128,189,247) 50%, rgb(128,189,247) 50%);
+			background-image:linear-gradient(60deg, rgb(128,189,247) 50%, rgb(128,189,247) 50%);
 			color: #ffffff;
 		}
 
