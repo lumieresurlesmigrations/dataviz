@@ -1327,11 +1327,11 @@ border-right: 2px outset black;*/
 #counter
 {
   background:black;
-  color:white;
+  color:red;
   font-family:"Courier New", Courier, monospace;
-  font-size:18px;
-  line-height:20px;
-  width:60px;
+  font-size:14px;
+  line-height:16px;
+  width:40px;
   padding:0px;
   border:3px solid gray;
   -moz-border-radius:3px;
