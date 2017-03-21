@@ -958,7 +958,7 @@
 /* Banner */
 
 	#banner {
-		background: url("../images/Salgado.jpg");
+		background: url("../images/Salgado2.jpeg");
 		height: 484;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -998,8 +998,8 @@
 /* Banner2 */
 
 	#banner2 {
-		background: url("../images/Salgado2.jpeg");
-		height:600px;
+		background: url("../images/Salgado.jpg");
+		/*height:600px;*/
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
