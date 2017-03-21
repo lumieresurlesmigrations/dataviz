@@ -57,16 +57,17 @@
                   { y: 5998501,
             			name:'2000: '
         }, { y: 5096502,
-            			name:'2001: '
+            			name:'2001: Afghanistan '
         }, 
-                   4646641, 4181701,5426539, 6616791, {        y: 12794268,
+                   4646641, {y:4181701, 
+                                name :'2003: Irak'},5426539, 6616791, {  y: 12794268,
             			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
             			marker: {
                 		symbol: 'url(https://github.com/Pregoles/migmig/tree/master/images/fire.png)'
             }
         },   13740317, 14442227, 15628057, 14697804, {
             y: 15473378,
-             name:'2011, début du conflit syrien',
+             name:'2011, Syrie',
             marker: {
                 symbol: 'url(https://github.com/Pregoles/migmig/tree/master/images/fire.png)'
             }
