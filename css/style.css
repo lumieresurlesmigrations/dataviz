@@ -1000,14 +1000,16 @@
 		padding: 6em 0em 4em;
 	}
 
-		.wrapper.style1 {
+/* Première couleur choisie: bleu gris = rgb(174,194,203) à rendre un peu transparent */
 
-			background-color: rgb(174,194,203);
-			-moz-background-image: linear-gradient(60deg, rgb(174,194,203) 50%, rgb(174,194,203) 50%);
-			-webkit-background-image: linear-gradient(60deg, rgb(174,194,203) 50%, rgb(174,194,203) 50%);
-			-o-background-image: linear-gradient(60deg, rgb(174,194,203) 50%, rgb(174,194,203) 50%);
-			-ms-background-image: linear-gradient(60deg, rgb(174,194,203) 50%, rgb(174,194,203) 50%);
-			background-image:linear-gradient(60deg, rgb(174,194,203) 50%, rgb(174,194,203) 50%);
+		.wrapper.style1 {
+			
+			background-color: rgb(170,198,186);
+			-moz-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
+			-webkit-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
+			-o-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
+			-ms-background-image: linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
+			background-image:linear-gradient(60deg, rgb(170,198,186) 50%, rgb(170,198,186) 50%);
 			color: #ffffff;
 		}
 
