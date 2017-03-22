@@ -128,10 +128,10 @@
          */
         function setupButtons(){
             $('.choice').on('mouseover', function(){
-                $(this).css({'background-color':'black'});
+                $(this).css({'background-color':rgba(174,194,203,0.5)});
             });
             $('.choice').on('mouseout', function(){
-                $(this).css({'background-color':'black'});
+                $(this).css({'background-color':rgba(174,194,203,0.5)});
             })
             $('.choice').on('click', function(){
                 picked = $(this).attr('data-index');
