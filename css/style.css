@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
 @import url('https://fonts.googleapis.com/css?family=Arapey:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Gabriela')
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
 
 /*
 	Interphase by TEMPLATED
@@ -19,7 +20,7 @@
 
 	body, input, select, textarea {
 		color: #444;
-		font-family: 'Arapey', serif;
+		font-family: 'Aref Ruqaa', serif;
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.65em;
