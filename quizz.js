@@ -11,7 +11,7 @@
      * WITHOUT ANY WARRANTY; without even the implied warranty of
      * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
      */
-    var quiztitle = "Quiz Title";
+    var quiztitle = "";
     /**
     * Set the information about your questions here. The correct answer string needs to match
     * the correct choice exactly, as it does string matching. (case sensitive)
