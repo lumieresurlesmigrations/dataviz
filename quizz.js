@@ -86,7 +86,7 @@
             submt = true;
             $('#explanation').empty();
             $('#question').text(quiz[currentquestion]['question']);
-            $('#pager').text('Question ' + Number(currentquestion + 1) + ' of ' + quiz.length);
+            $('#pager').text('Question ' + Number(currentquestion + 1) + ' sur ' + quiz.length);
             if(quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != ""){
                 if($('#question-image').length == 0){
                     $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question'])).insertAfter('#question');
