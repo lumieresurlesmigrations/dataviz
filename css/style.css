@@ -1301,6 +1301,13 @@ height:800px;
   background-size: cover;
 }
 
+.paraxify.intermede-2{
+background: url("../images/groporc.jpg");
+height:800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 .adit {
   height: 50px ;
   width: 40%;
