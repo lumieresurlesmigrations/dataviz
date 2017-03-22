@@ -19,19 +19,19 @@
     */
     var quiz = [
         {
-            "question"      :   "Question 1?",
+            "question"      :   "Quel pays reçoit le plus de primo-demandes d’asile (hors UE) en Europe?",
             "image"         :   "",
             "choices"       :   [
-                                    "Réponse 1",
-                                    "Reponse 2",
-                                    "Réponse 3",
-                                    "Réponse 4"
+                                    "L'Italie",
+                                    "Le Royaume-Uni",
+                                    "La France",
+                                    "L'Allemagne"
                                 ],
-            "correct"       :   "Reponse 2",
-            "explanation"   :   "Réponse 2 est la bonne réponse car ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
+            "correct"       :   "L'Allemagne",
+            "explanation"   :   "L'Allemagne est la bonne réponse car ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
-            "question"      :   "Question 2?",
+            "question"      :   "Quel est le premier pays d’origine des primo-demandeurs d’asile (hors UE) en Europe?",
             "image"         :   "",
             "choices"       :   [
                                     "Réponse 1",
@@ -43,7 +43,7 @@
             "explanation"   :   "Réponse 3 est la bonne réponse car ",
         },
         {
-             "question"      :   "Question 3?",
+             "question"      :   "Quel pourcentage des primo-demandeurs d’asile (hors UE) sont des hommes?",
             "image"         :   "",
             "choices"       :   [
                                     "Réponse 1",
