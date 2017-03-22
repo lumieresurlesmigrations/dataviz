@@ -49,7 +49,37 @@ $(function () {
             		symbol: 'square'
         								},
                	color: '#0d233a',
-                data: [1 620, 2 188, 8 510, 18 478, 17 007, 14 200, 16 810, 18 790, 19 863, 22 505, 22 350, 21 714, 28 925, 26 290, 27 672, 34 352, 61 422, 54 813, 47 380, 39 835, 35 406, 32 413, 25 036, 21 122, 22 637, 22 990, 31 855, 39 775, 48 652, 52 877, 54 429, 57 616, 52 066, 34 853, 29 937, 34 258, 38 803, 41 619, 45 654, 47 467, 51 715, 50 952, 64 942]
+                data: [1 620, 2 188, 8 510, 18 478, 17 007, 14 200, 16 810, 18 790, 19 863, 22 505, 22 350, 21 714, 28 925, 26 290, 27 672, 34 352,
+                       {y: 61 422,
+                       name:'9/11/1989: Chute du mur de Berlin',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }
+                       }, 
+                       {y: 54 813, 
+                       name:'1991: Début de la guerre civile en ex-Yougoslavie'
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }
+                       },                       
+                       {y: 47 380,
+                       name:'21/12/1991: Chute de l\'URSS',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }
+                       }, 39 835, 35 406, 32 413, 
+                       {y: 25 036,
+                       name: '14/12/1995: Fin de la guerre en Bosnie',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }                   
+                       }, 21 122, 22 637, 
+                       {y: 22 990, 
+                       name: '1998: Poursuite des conflits en ex-Yougoslavie (guerre du Kosovo)'
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       } 
+                       }, 31 855, 39 775, 48 652, 52 877, 54 429, 57 616, 52 066, 34 853, 29 937, 34 258, 38 803, 41 619, 45 654, 47 467, 51 715, 50 952, 64 942]
             }, { type : 'spline',
                  color: '#f45b5b',
                 name: 'Admissions à l\'asile',
