@@ -197,7 +197,8 @@ $(function () {
               /* Une hausse vertigineuse de déplacements de populations dans le monde */
             },
             subtitle: {
-                text: 'Source : <a href="http://popstats.unhcr.org/en/overview">UNHCR</a> '
+                text: ''
+              /* Source : <a href="http://popstats.unhcr.org/en/overview">UNHCR</a> */
             },
       credits: {
         enabled: false
