@@ -82,7 +82,7 @@
         /**
          * Resets all of the fields to prepare for next question
          */
-        function nextQuestion(){
+    function nextQuestion(){
             submt = true;
             $('#explanation').empty();
             $('#question').text(quiz[currentquestion]['question']);
@@ -99,12 +99,13 @@
             addChoices(quiz[currentquestion]['choices']);
             setupButtons();
         }
+
         /**
          * After a selection is submitted, checks if its the right answer
          *
          * @param {choice} number The li zero-based index of the choice picked
          */
-        function processQuestion(choice){
+     function processQuestion(choice){
             if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
                 $('.choice').eq(choice).css({'background-color':'#50D943'});
                 $('#explanation').html('<strong>Ouais mec!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
@@ -113,12 +114,12 @@
                 $('.choice').eq(choice).css({'background-color':'#D92623'});
                 $('#explanation').html('<strong>Mais quelle tâche</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
             }
-            currentquestion++;
-            $('#submitbutton').html('NEXT QUESTION &raquo;').on('click', function(){
+                currentquestion++;
+            $('#submitbutton').html('QUESTION SUIVANTE &raquo;').on('click', function(){
                 if(currentquestion == quiz.length){
                     endQuiz();
                 } else {
-                    $(this).text('Check Answer').css({'color':'#222'}).off('click');
+                    $(this).text('Vérifier sa réponse').css({'color':'#222'}).off('click');
                     nextQuestion();
                 }
             })
@@ -128,15 +129,15 @@
          */
         function setupButtons(){
             $('.choice').on('mouseover', function(){
-                $(this).css({'background-color':rgba(174,194,203,0.5)});
+                $(this).css({'background-color':'rgba(174,194,203,0.5)'});
             });
             $('.choice').on('mouseout', function(){
-                $(this).css({'background-color':rgba(174,194,203,0.5)});
+                $(this).css({'background-color':'rgb(174,194,203)'});
             })
             $('.choice').on('click', function(){
                 picked = $(this).attr('data-index');
                 $('.choice').removeAttr('style').off('mouseout mouseover');
-                $(this).css({'border-color':'#222','font-weight':700,'background-color':rgba(170,198,186,0.7)});
+                $(this).css({'border-color':'#222','font-weight':700,'background-color':'rgba(170,198,186,0.7)'});
                 if(submt){
                     submt=false;
                     $('#submitbutton').css({'color':'#000'}).on('click', function(){
@@ -172,7 +173,7 @@
             //add pager and questions
             if(typeof quiz !== "undefined" && $.type(quiz) === "array"){
                 //add pager
-                $(document.createElement('p')).addClass('pager').attr('id','pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
+                $(document.createElement('p')).addClass('pager').attr('id','pager').text('Question 1 sur ' + quiz.length).appendTo('#frame');
                 //add first question
                 $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
                 //add image if present
@@ -188,7 +189,7 @@
                 addChoices(quiz[0]['choices']);
             
                 //add submit button
-                $(document.createElement('div')).addClass('choice-box').attr('id', 'submitbutton').text('Check Answer').css({'font-weight':700,'color':'#222','padding':'30px 0'}).appendTo('#frame');
+                $(document.createElement('div')).addClass('choice-box').attr('id', 'submitbutton').text('Vérifier sa réponse').css({'font-weight':700,'color':'#222','padding':'30px 0'}).appendTo('#frame');
             
                 setupButtons();
             }
