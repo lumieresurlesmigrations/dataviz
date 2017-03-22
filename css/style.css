@@ -5,7 +5,29 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Gabriela')
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+/*import style bubble*/
 
+#mainBubble {
+  background: #fff;
+  border: solid 1px #ddd;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0);
+  font: 10px sans-serif;
+  height: 800px;
+  position: relative;
+  width: 90%;
+}
+
+#mainBubble svg {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+#mainBubble circle.topBubble {
+  fill: #aaa;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
 /*
 	Interphase by TEMPLATED
 	templated.co @templatedco
