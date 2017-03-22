@@ -360,7 +360,7 @@ $(document).ready(function(){
      .attr("alignment-baseline", "middle")
      .style("fill", "#88888")
      .text(function(d) {
-       return "Découvrez les initiatives que nous avons retenues !";
+       return "";
      });
 
    var root = {
@@ -633,7 +633,7 @@ $(document).ready(function(){
      svg.attr("width", w);
      svg.attr("height", h);
 
-     d3.select("#bubbleItemNote").text("Découvrez les initiatives que nous avons retenues");
+     d3.select("#bubbleItemNote").text("");
 
      var t = svg.transition()
        .duration(650);
