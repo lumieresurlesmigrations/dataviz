@@ -34,25 +34,26 @@
             "question"      :   "Quel est le premier pays d’origine des primo-demandeurs d’asile (hors UE) en Europe?",
             "image"         :   "",
             "choices"       :   [
-                                    "Réponse 1",
-                                    "Réponse 2",
-                                    "Réponse 3",
-                                    "Réponse 4"
+                                    "Le Soudan",
+                                    "Le Congo",
+                                    "La Syrie",
+                                    "L'Iraq"
                                 ],
-            "correct"       :   "Réponse 3",
-            "explanation"   :   "Réponse 3 est la bonne réponse car ",
+            "correct"       :   "La Syrie",
+            "explanation"   :   "La Syrie est la bonne réponse car plus de 350 000 primo-demandeurs d’asile en Europe étaient Syriens en 2015 (contre plus de 100 000 en 2014). Cela place la Syrie bien loin devant les autres pays d’origine (plus de 150 000 primo-demandeurs viennent d’Afghanistan qui arrive en 2ème place). 
+",
         },
         {
              "question"      :   "Quel pourcentage des primo-demandeurs d’asile (hors UE) sont des hommes?",
             "image"         :   "",
             "choices"       :   [
-                                    "Réponse 1",
-                                    "Réponse 2",
-                                    "Réponse 3",
-                                    "Réponse 4"
+                                    "Plus de 90%",
+                                    "Entre 70% et 90%",
+                                    "Entre 50% et 70%",
+                                    "Moins de 50%"
                                 ],
-            "correct"       :   "Réponse 4",
-            "explanation"   :   "Réponse 4 est la bonne réponse car ",
+            "correct"       :   "Entre 70% et 90%",
+            "explanation"   :   "Entre 70% et 90% est la bonne réponse car plus de 70% des primo-demandeurs d’asile en Europe sont des hommes. ",
         },
     ];
     /******* No need to edit below this line *********/
