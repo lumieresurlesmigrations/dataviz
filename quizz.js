@@ -19,40 +19,40 @@
     */
     var quiz = [
         {
-            "question"      :   "Q1: Who came up with the theory of relativity?",
+            "question"      :   "Question 1?",
             "image"         :   "",
             "choices"       :   [
-                                    "Sir Isaac Newton",
-                                    "Nicolaus Copernicus",
-                                    "Albert Einstein",
-                                    "Ralph Waldo Emmerson"
+                                    "Réponse 1",
+                                    "Réponse 2",
+                                    "Réponse 3",
+                                    "Réponse 4"
                                 ],
-            "correct"       :   "Albert Einstein",
-            "explanation"   :   "Albert Einstein drafted the special theory of relativity in 1905.",
+            "correct"       :   "Réponse 2",
+            "explanation"   :   "Réponse 2 est la bonne réponse car ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
-            "question"      :   "Q2: Who is on the two dollar bill?",
-            "image"         :   "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/US_%242_obverse-high.jpg/320px-US_%242_obverse-high.jpg",
-            "choices"       :   [
-                                    "Thomas Jefferson",
-                                    "Dwight D. Eisenhower",
-                                    "Benjamin Franklin",
-                                    "Abraham Lincoln"
-                                ],
-            "correct"       :   "Thomas Jefferson",
-            "explanation"   :   "The two dollar bill is seldom seen in circulation. As a result, some businesses are confused when presented with the note.",
-        },
-        {
-            "question"      :   "Q3: What event began on April 12, 1861?",
+            "question"      :   "Question 2?",
             "image"         :   "",
             "choices"       :   [
-                                    "First manned flight",
-                                    "California became a state",
-                                    "American Civil War began",
-                                    "Declaration of Independence"
+                                    "Réponse 1",
+                                    "Réponse 2",
+                                    "Réponse 3",
+                                    "Réponse 4"
                                 ],
-            "correct"       :   "American Civil War began",
-            "explanation"   :   "South Carolina came under attack when Confederate soldiers attacked Fort Sumter. The war lasted until April 9th 1865.",
+            "correct"       :   "Réponse 3",
+            "explanation"   :   "Réponse 3 est la bonne réponse car ",
+        },
+        {
+             "question"      :   "Question 3?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "Réponse 1",
+                                    "Réponse 2",
+                                    "Réponse 3",
+                                    "Réponse 4"
+                                ],
+            "correct"       :   "Réponse 4",
+            "explanation"   :   "Réponse 4 est la bonne réponse car ",
         },
     ];
     /******* No need to edit below this line *********/
@@ -107,11 +107,11 @@
         function processQuestion(choice){
             if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
                 $('.choice').eq(choice).css({'background-color':'#50D943'});
-                $('#explanation').html('<strong>Correct!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+                $('#explanation').html('<strong>Ouais mec!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
                 score++;
             } else {
                 $('.choice').eq(choice).css({'background-color':'#D92623'});
-                $('#explanation').html('<strong>Incorrect.</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+                $('#explanation').html('<strong>Mais quelle tâche</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
             }
             currentquestion++;
             $('#submitbutton').html('NEXT QUESTION &raquo;').on('click', function(){
@@ -136,7 +136,7 @@
             $('.choice').on('click', function(){
                 picked = $(this).attr('data-index');
                 $('.choice').removeAttr('style').off('mouseout mouseover');
-                $(this).css({'border-color':'#222','font-weight':700,'background-color':'blue'});
+                $(this).css({'border-color':'#222','font-weight':700,'background-color':rgba(170,198,186,0.7)});
                 if(submt){
                     submt=false;
                     $('#submitbutton').css({'color':'#000'}).on('click', function(){
@@ -156,7 +156,7 @@
             $('#question').empty();
             $('#choice-block').empty();
             $('#submitbutton').remove();
-            $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
+            $('#question').text("Vous avez " + score + " réponse sur " + quiz.length + " correctes.");
             $(document.createElement('h2')).css({'text-align':'center', 'font-size':'4em'}).text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');
         }
         /**
