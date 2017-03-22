@@ -49,36 +49,7 @@ $(function () {
             		symbol: 'square'
         								},
                	color: '#0d233a',
-                data: [1620, 2188, 8510, 18478, 17007, 14200, 16810, 18790, 19863, 22505, 22350, 21714, 28925, 26290, 27672, 34352,
-                                         {y: 61422,
-                       name:'9/11/1989: Chute du mur de Berlin',
-                       marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-                       }
-                       }, 
-                       {y: 54813, 
-                       name:'1991: Début de la guerre civile en ex-Yougoslavie'
-                       marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-                       }
-                       },                       
-                       {y: 47380,
-                       name:'21/12/1991: Chute de l\'URSS',
-                       marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-                       }
-                       }, 39835, 35406, 32413, 
-                       {y: 25 036,
-                       name: '14/12/1995: Fin de la guerre en Bosnie',
-                       marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-                       }                   
-                       }, 21122, 22637, 
-                       {y: 22990, 
-                       name: '1998: Poursuite des conflits en ex-Yougoslavie (guerre du Kosovo)'
-                       marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-                       }, 31855, 39775, 48652, 52877, 54429, 57616, 52066, 34853, 29937, 34258, 38803, 41619, 45654, 47467, 51715, 50952, 64942]
+                data: [1620, 2188, 8510, 18478, 17007, 14200, 16810, 18790, 19863, 22505, 22350, 21714, 28925, 26290, 27672, 34352, 61422, 54813, 47380, 39835, 35406, 32413, 25036, 21122, 22637, 22990, 31855, 39775, 48652, 52877, 54429, 57616, 52066, 34853, 29937, 34258, 38803, 41619, 45654, 47467, 51715, 50952, 64942]
             }, { type : 'spline',
                  color: '#f45b5b',
                 name: 'Admissions à l\'asile',
