@@ -1305,7 +1305,8 @@ border:3px solid white;
   border-radius: 25px;
   flex-direction: row;
    align-items:center;
-   box-shadow: inset -6px 6px 4px black;
+	border:3px solid white;
+   /*box-shadow: inset -6px 6px 4px black;*/
    background-color: rgba(7,86,152,0.8);
    color: white;
 }
@@ -1339,9 +1340,9 @@ border-radius:150px;
    align-items:center;
    width:700px; 
    height:200px;
- border-left: 2px outset black;
+ /*border-left: 2px outset black;
  border-bottom: 2px inset black;
-  box-shadow: -3px 3px 6px black;
+  box-shadow: -3px 3px 6px black;*/
 
    padding: 0px;
 }
