@@ -4,7 +4,8 @@ $(function () {
                 type: 'area'
             },
             title: {
-                text: 'Historique des demandes d\'asile en France'
+                text: ''
+              /* Historique des demandes d\'asile en France */
             },
             subtitle: {
                 text: ''
@@ -112,8 +113,8 @@ $(function () {
 
             title: {
 
-                text: 'Répartition des décisions en première instance relatives aux demandes d\'asile (de ressortissants de pays tiers), 2015'
-
+                text: ''
+/* Répartition des décisions en première instance relatives aux demandes d\'asile (de ressortissants de pays tiers), 2015 */
             },
 
             tooltip: {
@@ -192,7 +193,8 @@ $(function () {
                 type: 'area'
             },
             title: {
-                text: 'Une hausse vertigineuse de déplacements de populations dans le monde'
+                text: ''
+              /* Une hausse vertigineuse de déplacements de populations dans le monde */
             },
             subtitle: {
                 text: 'Source : <a href="http://popstats.unhcr.org/en/overview">UNHCR</a> '
