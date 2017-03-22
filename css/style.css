@@ -1308,6 +1308,15 @@ height:800px;
   background-position: center;
   background-size: cover;
 }
+
+.paraxify.intermede-3{
+background: url("../images/Salgado4.jpeg");
+height:800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 .adit {
   height: 50px ;
   width: 40%;
