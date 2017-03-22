@@ -23,11 +23,11 @@
             "image"         :   "",
             "choices"       :   [
                                     "Réponse 1",
-                                    "Réponse 2",
+                                    "Reponse 2",
                                     "Réponse 3",
                                     "Réponse 4"
                                 ],
-            "correct"       :   "Réponse 2",
+            "correct"       :   "Reponse 2",
             "explanation"   :   "Réponse 2 est la bonne réponse car ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
