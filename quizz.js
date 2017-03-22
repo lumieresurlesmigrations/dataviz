@@ -28,7 +28,7 @@
                                     "L'Allemagne"
                                 ],
             "correct"       :   "L'Allemagne",
-            "explanation"   :   "L'Allemagne est la bonne réponse car ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
+            "explanation"   :   "L'Allemagne est la bonne réponse car elle a reçu plus de 400 000 demandes d’asile en 2015 (contre plus de 150 000 en 2014), loin devant l’Italie (5ème place: presque 100 000), la France (6ème place: plus de 50 000) et le Royaume-Uni (9ème place: moins de 50 000). ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
             "question"      :   "Quel est le premier pays d’origine des primo-demandeurs d’asile (hors UE) en Europe?",
