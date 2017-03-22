@@ -51,18 +51,41 @@ $(function () {
              		marker: {
             		symbol: 'square'
         								},
-               	color: '#0d233a',
-             data: [1620, 2188, 8510, 18478, 17007, 14200, 16810, 18790, 19863, 22505, 22350, 21714, 28925, 26290, 27672, 34352, 61422, 54813, 47380, 39835, 35406, 32413, 25036, 21122, 22637, 22990, 31855, 39775, 48652, 52877, 54429, 57616, 52066, 34853, 29937, 34258, 38803, 41619, 45654, 47467, 51715, 50952, 
-                  {y: 12793,
-            			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
-            			marker: {
-                		symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-            }
-            }]
-              /*
-                    64942*/
+               	color: '#D1E231',
+             data: [1620, 2188, 8510, 18478, 17007, 14200, 16810, 18790, 19863, 22505, 22350, 21714, 28925, 26290, 27672, 34352,
+                       {y: 61422,
+                       name:'1989: Chute du mur de Berlin',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }
+                       }, 
+                       {y: 54813, 
+                       name:'1991: Début de la guerre civile en ex-Yougoslavie',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }
+                       },                       
+                       {y: 47380,
+                       name:'1991: Chute de l\'URSS',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }
+                       }, 39835, 35406, 32413, 
+                       {y: 25036,
+                       name: '1995: Fin de la guerre en Bosnie',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       }                   
+                       }, 21122, 22637, 
+                       {y: 22990, 
+                       name: '1998: Poursuite des conflits en ex-Yougoslavie (guerre du Kosovo)',
+                       marker: {
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                       } 
+                       },
+                    31855, 39775, 48652, 52877, 54429, 57616, 52066, 34853, 29937, 34258, 38803, 41619, 45654, 47467, 51715, 50952, 64942]
             }, { type : 'spline',
-                 color: '#f45b5b',
+                 color: '#D7837F',
                 name: 'Admissions à l\'asile',
                 data: [1237, 1891, 6238, 14797, 12473, 13091, 14296, 17099, 14586, 15670, 14608, 14314, 11539, 10645, 8704, 8794, 8770, 13486, 15467, 10266, 9914, 7025, 4742, 4344, 4112, 4342, 4659, 5185, 7323, 8495, 9790, 11292, 13770, 7354, 8781, 11441, 10373, 10340, 10702, 9976, 11371, 14512, 19506]
             }  ]
@@ -71,7 +94,7 @@ $(function () {
 $(function () {
 
     Highcharts.setOptions({
-     colors: ['#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263',      '#6AF9C4']
+     colors: ['#29AB87', '#009688', '#E48400', '#D1E231']
     });
     var chart = new Highcharts.Chart({
 
@@ -222,7 +245,7 @@ $(function () {
              		marker: {
             		symbol: 'square'
         								},
-               	color: '#D1E231',
+               	color: '#0F52BA',
                 data: [12129572, 12116835, 10594055, 9592795, 9573397, 8661994, 9877703, 11390930, 10489812, 10396538, 10549681, 10404804, 10497957, 11699279,14385316,16121427]
             }, { type : 'spline',
                  color: '#D7837F',
