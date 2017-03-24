@@ -1088,12 +1088,9 @@ width:90%;
 		}
 
 			.wrapper.style1 header {
-				margin-bottom: 4em;
+				margin-bottom: 2em;
 			}
 
-			.wrapper.style1 h2 {
-				color: #009688;
-			}
 
 			.wrapper.style1 .icon.big {
 				border-color: #ffffff;
@@ -1114,11 +1111,7 @@ width:90%;
 		}
 
 			.wrapper.style12 header {
-				margin-bottom: 4em;
-			}
-
-			.wrapper.style12 h2 {
-				color: #009688;
+				margin-bottom: 2em;
 			}
 
 			.wrapper.style12 .icon.big {
@@ -1140,12 +1133,9 @@ width:90%;
 		}
 
 			.wrapper.style13 header {
-				margin-bottom: 4em;
+				margin-bottom: 2em;
 			}
 
-			.wrapper.style13 h2 {
-				color: #009688;
-			}
 
 			.wrapper.style13 .icon.big {
 				border-color: #ffffff;
@@ -1158,7 +1148,7 @@ width:90%;
 		}
 
 		.wrapper.style2 header {
-			margin-bottom: 4em;
+			margin-bottom: 2em;
 		}
 
 		.wrapper.style2 .feature {
