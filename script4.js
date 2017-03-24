@@ -57,7 +57,8 @@ $(function () {
                        {y: 61422,
                        name:'1989: Chute du mur de Berlin',
                        marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
                        }
                        }, 
                        {y: 54813, 
