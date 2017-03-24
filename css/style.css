@@ -1421,9 +1421,9 @@ border-right: 2px outset black;*/
 {
   background:black;
   color:red;
-  font-size:18px;
+  font-size:24px;
   line-height:16px;
-  width:60px;
+  width:80px;
   padding:0px;
   border:3px solid gray;
   -moz-border-radius:3px;
