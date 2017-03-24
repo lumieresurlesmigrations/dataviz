@@ -11,14 +11,15 @@
   background: #fff;
   border: solid 0px #ddd;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0);
-  font: 20px sans-serif;
+  font-family: 'Arapey', serif;
+  font-size: 20px;
   height: 800px;
   position: relative;
   width: 100%;
 }
 
 #mainBubble svg {
-  left: 0;
+  left: 100px;
   position: absolute;
   top: 0;
 }
