@@ -1420,11 +1420,10 @@ border-right: 2px outset black;*/
 #counter
 {
   background:black;
-  color:#004953;
-  font-family:"Courier New", Courier, monospace;
-  font-size:14px;
+  color:red;
+  font-size:18px;
   line-height:16px;
-  width:40px;
+  width:60px;
   padding:0px;
   border:3px solid gray;
   -moz-border-radius:3px;
