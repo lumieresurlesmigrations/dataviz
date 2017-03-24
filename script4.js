@@ -57,7 +57,7 @@ $(function () {
                        {y: 61422,
                        name:'1989: Chute du mur de Berlin',
                        marker: {
-                             symbol: 'url(https://upload.wikimedia.org/wikipedia/commons/0/04/Croix_Mundolsheim.png)'
+                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
                        }
                        }, 
                        {y: 54813, 
