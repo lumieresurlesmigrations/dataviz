@@ -19,7 +19,7 @@
     */
     var quiz = [
         {
-            "question"      :   "Quel pays reçoit le plus de primo-demandes d’asile (hors UE) en Europe?",
+            "question"      :   "Quel pays a reçu le plus de demandes d’asile (de ressortissants de pays tiers) dans l'UE en 2015 (premières demandes) ?",
             "image"         :   "",
             "choices"       :   [
                                     "L'Italie",
@@ -28,10 +28,10 @@
                                     "L'Allemagne"
                                 ],
             "correct"       :   "L'Allemagne",
-            "explanation"   :   "L'Allemagne est la bonne réponse car elle a reçu plus de 400 000 demandes d’asile en 2015 (contre plus de 150 000 en 2014), loin devant l’Italie (5ème place: presque 100 000), la France (6ème place: plus de 50 000) et le Royaume-Uni (9ème place: moins de 50 000). ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
+            "explanation"   :   "L'Allemagne a reçu 441 800 primo-demandes d’asile de ressortissants de pays tiers en 2015 (contre 172 945 en 2014), loin devant l’Italie (5ème place: 83 245 demandes), la France (6ème place: 70 570) et le Royaume-Uni (9ème place: moins de 38 370). ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
-            "question"      :   "Quel est le premier pays d’origine des primo-demandeurs d’asile (hors UE) en Europe?",
+            "question"      :   "Quel est le premier pays d’origine des demandeurs d’asile (ressortissants de pays tiers) en UE en 2015 (premières demandes) ?",
             "image"         :   "",
             "choices"       :   [
                                     "Le Soudan",
@@ -40,10 +40,10 @@
                                     "L'Iraq"
                                 ],
             "correct"       :   "La Syrie",
-            "explanation"   :   "La Syrie est la bonne réponse car plus de 350 000 primo-demandeurs d’asile en Europe étaient Syriens en 2015 (contre plus de 100 000 en 2014). Cela place la Syrie bien loin devant les autres pays d’origine (plus de 150 000 primo-demandeurs viennent d’Afghanistan qui arrive en 2ème place).",
+            "explanation"   :   "362 775 primo-demandeurs d’asile ressortissants de pays tiers en UE étaient Syriens en 2015 (contre 119 000 en 2014). Cela place la Syrie bien loin devant les autres pays d’origine (178 230 primo-demandeurs viennent d’Afghanistan qui arrive en 2ème place).",
         },
         {
-             "question"      :   "Quel pourcentage des primo-demandeurs d’asile (hors UE) sont des hommes?",
+             "question"      :   "Quel pourcentage de demandeurs d’asile (ressortissants de pays tiers) en UE sont des hommes en 2015 (premières demandes) ?",
             "image"         :   "",
             "choices"       :   [
                                     "Plus de 90%",
@@ -52,7 +52,48 @@
                                     "Moins de 50%"
                                 ],
             "correct"       :   "Entre 70% et 90%",
-            "explanation"   :   "Entre 70% et 90% est la bonne réponse car plus de 70% des primo-demandeurs d’asile en Europe sont des hommes.",
+            "explanation"   :   "73% des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes.",
+        },
+         {
+            "question"      :   "Combien touchent les passeurs pour une traversée de la Méditerranée ?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "Moins de 100€",
+                                    "Entre 100€ et 700€",
+                                    "Entre 700€ et 2 000€",
+                                    "Plus de 2 000€"
+                                ],
+            "correct"       :   "Entre 700 et 2 000€",
+            "explanation"   :   "Les passeurs touchent entre 700€ et 2000 € pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil). 
+",
+        },
+         {
+            "question"      :   "Combien coûte au maximum une traversée de la Manche à Calais ?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "1 000€",
+                                    "5 000€",
+                                    "10 000€",
+                                    "20 000€"
+                                ],
+            "correct"       :   "20 000€",
+            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et a une seconde chance en cas d’échec. 
+ 
+",
+        },
+         {
+            "question"      :   "En 2014, quelle est la part des migrants décédés dans le monde qui ont péri en Méditerranée ?",
+            "image"         :   "",
+            "choices"       :   [
+                                   "Moins de 10%",
+                                   "Entre 25% et 50%",
+                                   "Entre 50% et 75%",
+                                   "75% ou plus"
+                                ],
+            "correct"       :   "75% ou plus",
+            "explanation"   :   "En 2014, plus 75% des migrants décédés dans le monde ont péri en Méditerranée.  
+ 
+",
         },
     ];
     /******* No need to edit below this line *********/
