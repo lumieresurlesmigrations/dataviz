@@ -932,7 +932,6 @@ width:90%;
 			right: 2.75em;
 			top: 0;
 			vertical-align: middle;
-			font-size:20px;
 		}
 
 			#header nav > ul {
@@ -957,7 +956,6 @@ width:90%;
 						color: #cee8d8;
 						display: inline-block;
 						text-decoration: none;
-						font-size:14px;
 					}
 
 						#header nav > ul > li a:hover {
