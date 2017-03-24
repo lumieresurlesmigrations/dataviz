@@ -58,8 +58,7 @@ $(function () {
                        name:'1989: Chute du mur de Berlin',
                        marker: {
                          radius: 10,
-                             symbol: 'cross',
-                         color: '#F90303',
+                             symbol: 'circle'
                        }
                        }, 
                        {y: 54813, 
