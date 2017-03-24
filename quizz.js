@@ -63,8 +63,8 @@
                                     "Entre 700€ et 2 000€",
                                     "Plus de 2 000€"
                                 ],
-            "correct"       :   "Entre 700 et 2 000€",
-            "explanation"   :   "Les passeurs touchent entre 700€ et 2000 € pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil). 
+            "correct"       :   "Entre 700€ et 2 000€",
+            "explanation"   :   "Les passeurs touchent entre 700€ et 2 000€ pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil). 
 ",
         },
          {
