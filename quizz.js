@@ -46,49 +46,49 @@
              "question"      :   "Quel pourcentage de demandeurs d’asile (ressortissants de pays tiers) en UE sont des hommes en 2015 (premières demandes) ?",
             "image"         :   "",
             "choices"       :   [
-                                    "Plus de 90%",
-                                    "Entre 70% et 90%",
-                                    "Entre 50% et 70%",
-                                    "Moins de 50%"
+                                    "Plus de 90 %",
+                                    "Entre 70 % et 90 %",
+                                    "Entre 50 % et 70 %",
+                                    "Moins de 50 %"
                                 ],
-            "correct"       :   "Entre 70% et 90%",
-            "explanation"   :   "73% des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes.",
+            "correct"       :   "Entre 70 % et 90 %",
+            "explanation"   :   "73 % des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes.",
         },
          {
             "question"      :   "Combien touchent les passeurs pour une traversée de la Méditerranée ?",
             "image"         :   "",
             "choices"       :   [
-                                    "Moins de 100€",
-                                    "Entre 100€ et 700€",
-                                    "Entre 700€ et 2 000€",
-                                    "Plus de 2 000€"
+                                    "Moins de 100 €",
+                                    "Entre 100 € et 700 €",
+                                    "Entre 700 € et 2 000 €",
+                                    "Plus de 2 000 €"
                                 ],
-            "correct"       :   "Entre 700€ et 2 000€",
-            "explanation"   :   "Les passeurs touchent entre 700€ et 2 000€ pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil).",
+            "correct"       :   "Entre 700 € et 2 000 €",
+            "explanation"   :   "Les passeurs touchent entre 700 € et 2 000 € pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil).",
         },
          {
             "question"      :   "Combien coûte au maximum une traversée de la Manche à Calais ?",
             "image"         :   "",
             "choices"       :   [
-                                    "1 000€",
-                                    "5 000€",
-                                    "10 000€",
-                                    "20 000€"
+                                    "1 000 €",
+                                    "5 000 €",
+                                    "10 000 €",
+                                    "20 000 €"
                                 ],
-            "correct"       :   "20 000€",
+            "correct"       :   "20 000 €",
             "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et a une seconde chance en cas d’échec.",
         },
          {
             "question"      :   "En 2014, quelle est la part des migrants décédés dans le monde qui ont péri en Méditerranée ?",
             "image"         :   "",
             "choices"       :   [
-                                   "Moins de 10%",
-                                   "Entre 25% et 50%",
-                                   "Entre 50% et 75%",
-                                   "75% ou plus"
+                                   "Moins de 10 %",
+                                   "Entre 25 % et 50 %",
+                                   "Entre 50 % et 75 %",
+                                   "75 % ou plus"
                                 ],
-            "correct"       :   "75% ou plus",
-            "explanation"   :   "En 2014, plus 75% des migrants décédés dans le monde ont péri en Méditerranée.",
+            "correct"       :   "75 % ou plus",
+            "explanation"   :   "En 2014, plus de 75 % des migrants décédés dans le monde ont péri en Méditerranée.",
         },
     ];
     /******* No need to edit below this line *********/
