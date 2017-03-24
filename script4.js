@@ -64,25 +64,29 @@ $(function () {
                        {y: 54813, 
                        name:'1991: Début de la guerre civile en ex-Yougoslavie',
                        marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
                        }
                        },                       
                        {y: 47380,
                        name:'1991: Chute de l\'URSS',
                        marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
                        }
                        }, 39835, 35406, 32413, 
                        {y: 25036,
                        name: '1995: Fin de la guerre en Bosnie',
                        marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
                        }                   
                        }, 21122, 22637, 
                        {y: 22990, 
                        name: '1998: Poursuite des conflits en ex-Yougoslavie (guerre du Kosovo)',
                        marker: {
-                             symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
                        } 
                        },
                     31855, 39775, 48652, 52877, 54429, 57616, 52066, 34853, 29937, 34258, 38803, 41619, 45654, 47467, 51715, 50952, 64942]
@@ -263,13 +267,15 @@ $(function () {
                    4646641, {y:4181701, name :'2003 : Irak'},5426539, 6616791, {        y: 12794268,
             			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
             			marker: {
-                		symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
             }
         },   13740317, 14442227, 15628057, 14697804, {
             y: 15473378,
              name:'2011, début du conflit syrien',
             marker: {
-                symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
+                         radius: 10,
+                             symbol: 'circle'
             }
         }, 17670368 , 23925555,32274619,37494172]
             }, { type : 'spline',
