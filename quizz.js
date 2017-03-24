@@ -76,7 +76,7 @@
                                     "20 000 €"
                                 ],
             "correct"       :   "20 000 €",
-            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et a une seconde chance en cas d’échec.",
+            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et une seconde chance en cas d’échec...",
         },
          {
             "question"      :   "En 2014, quelle est la part des migrants décédés dans le monde qui ont péri en Méditerranée ?",
