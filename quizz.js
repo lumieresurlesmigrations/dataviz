@@ -64,8 +64,7 @@
                                     "Plus de 2 000€"
                                 ],
             "correct"       :   "Entre 700€ et 2 000€",
-            "explanation"   :   "Les passeurs touchent entre 700€ et 2 000€ pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil). 
-",
+            "explanation"   :   "Les passeurs touchent entre 700€ et 2 000€ pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil).",
         },
          {
             "question"      :   "Combien coûte au maximum une traversée de la Manche à Calais ?",
@@ -77,9 +76,7 @@
                                     "20 000€"
                                 ],
             "correct"       :   "20 000€",
-            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et a une seconde chance en cas d’échec. 
- 
-",
+            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et a une seconde chance en cas d’échec.",
         },
          {
             "question"      :   "En 2014, quelle est la part des migrants décédés dans le monde qui ont péri en Méditerranée ?",
@@ -91,9 +88,7 @@
                                    "75% ou plus"
                                 ],
             "correct"       :   "75% ou plus",
-            "explanation"   :   "En 2014, plus 75% des migrants décédés dans le monde ont péri en Méditerranée.  
- 
-",
+            "explanation"   :   "En 2014, plus 75% des migrants décédés dans le monde ont péri en Méditerranée.",
         },
     ];
     /******* No need to edit below this line *********/
