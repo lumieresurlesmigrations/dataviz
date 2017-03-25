@@ -254,7 +254,7 @@ $(function () {
             		symbol: 'square'
         								},
                	color: '#0F52BA',
-                data: [{y:12129572, name :'2000 : Afghanistan, Burundi, Irak'},{y:12116835, name :'2001 : Afghanistan, Burundi, Irak'} ,{y:10594055, name :'2002 : Afghanistan, Burundi, Soudan'} , 9592795, 9573397, 8661994, 9877703, 11390930, 10489812, 10396538, 10549681, 10404804, 10497957, 11699279,14385316,16121427]
+                data: [{y:12129572, name :'2000 : Afghanistan, Burundi, Irak'},{y:12116835, name :'2001 : Afghanistan, Burundi, Irak'} ,{y:10594055, name :'2002 : Afghanistan, Burundi, Soudan'} , {y:9592795, name :'2003 : Afghanistan,Soudan, Burundi'},{y:9573397, name :'2004 : Afghanistan,Soudan, Burundi'} ,{y:8661994, name :'2005 : Afghanistan,Soudan, Burundi'} ,{y:9877703, name :'2006 : Afghanistan,Irak, Soudan'}  ,{y:11390930, name :'2007 : Afghanistan,Irak, Colombie'} , 10489812, 10396538, 10549681, 10404804, 10497957, 11699279,14385316,16121427]
             }, { type : 'spline',
                  color: '#D7837F',
                 name: 'Déplacés internes',
