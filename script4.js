@@ -203,7 +203,7 @@ $(function () {
             },
             subtitle: {
                 text: ''
-               Source : <a href="http://popstats.unhcr.org/en/overview">UNHCR</a> 
+              /* Source : <a href="http://popstats.unhcr.org/en/overview">UNHCR</a>  */
             },
       credits: {
         enabled: false
