@@ -58,28 +58,28 @@ $(function () {
                        name:'1989: Chute du mur de Berlin',
                        marker: {
                          radius: 10,
-                             symbol:'url(explosion.png)'
+                             symbol:'url(explosion5.png)'
                        }
                        }, 
                        {y: 54813, 
                        name:'1991: Début de la guerre civile en ex-Yougoslavie',
                        marker: {
                          radius: 10,
-                             symbol: 'url(explosion2.png)'
+                             symbol: 'url(explosion5.png)'
                        }
                        },                       
                        {y: 47380,
                        name:'1991: Chute de l\'URSS',
                        marker: {
                          radius: 10,
-                             symbol: 'url(explosion3.png)'
+                             symbol: 'url(explosion5.png)'
                        }
                        }, 39835, 35406, 32413, 
                        {y: 25036,
                        name: '1995: Fin de la guerre en Bosnie',
                        marker: {
                          radius: 10,
-                             symbol: 'url(explosion4.png)'
+                             symbol: 'url(explosion5.png)'
                        }                   
                        }, 21122, 22637, 
                        {y: 22990, 
@@ -268,14 +268,14 @@ $(function () {
             			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
             			marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol: 'url(explosion.png)'
             }
         },   13740317, 14442227, 15628057, 14697804, {
             y: 15473378,
              name:'2011, début du conflit syrien',
             marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol: 'url(explosion.png)'
             }
         }, 17670368 , 23925555,32274619,37494172]
             }, { type : 'spline',
