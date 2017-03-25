@@ -256,7 +256,7 @@ $(function () {
                   {y: 14442227, name :'Les 3 premiers pays en termes de déplacés internes en 2008 : Irak, Colombie, Rép. Dém. Congo'},
                   {y: 15628057, name :'Les 3 premiers pays en termes de déplacés internes en 2009 : Irak, Pakistan, Rép. Dém. Congo'},
                   {y:14697804, name :'Les 3 premiers pays en termes de déplacés internes en 2010 : Colombie, Rép. Dém. Congo, Soudan'},
-                  {y: 15473378, name:'Les 3 premiers pays en termes de déplacés internes en 2011, Colombie, Soudan, Rép. Dém. Congo. Début du conflit en Syrie', marker: {radius: 10, symbol: 'url(explosion.png)'}},
+                  {y: 15473378, name:' Début du conflit en Syrie. Les 3 premiers pays en termes de déplacés internes en 2011, Colombie, Soudan, Rép. Dém. Congo.' ,marker: {radius: 10, symbol: 'url(explosion.png)'}},
                   {y: 17670368, name :'Les 3 premiers pays en termes de déplacés internes en 2012 : Colombie, Rép. Dém. Congo, Syrie'},
                   {y: 23925555, name :'Les 3 premiers pays en termes de déplacés internes en 2013 : Syrie, Rép. Dém. Congo, Colombie'},
                   {y: 32274619, name :'Les 3 premiers pays en termes de déplacés internes en 2014 : Syrie, Colombie, Irak'},
