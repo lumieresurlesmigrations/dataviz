@@ -105,70 +105,41 @@ $(function () {
     var chart = new Highcharts.Chart({
 
             chart: {
-
                 renderTo: 'alienor',backgroundColor:'transparent',
-
                 plotBackgroundColor: null,
-
                 plotBorderWidth: null,
-
                 plotShadow: false
-
             },
-
             title: {
-
                 text: ''
 /* Répartition des décisions en première instance relatives aux demandes d\'asile (de ressortissants de pays tiers), 2015 */
             },
-
             tooltip: {
-
                 formatter: function() {
-
                     return '<b>'+ this.point.name +'</b>: '+ this.y+'% ';
-
                 }
-
             },
 
             plotOptions: {
-
                 pie: {
-
                     allowPointSelect: true,
-
                     cursor: 'pointer',
-
                     dataLabels: {
-
                         enabled: true,
-
                         color: '#000000',
-
                         connectorColor: '#000000',
-
                         formatter: function() {
-
                             return '<b>'+ this.point.name +'</b> ';
-
                         }
-
                     }
-
                 }
-
             },
        credits: {
         enabled: false
     },
-
             series: [{
-
                 type: 'pie',
-
                 name: 'Statut',
-
                 "data": [
           				[
           					"Statut de réfugié",
@@ -254,45 +225,39 @@ $(function () {
             		symbol: 'square'
         								},
                	color: '#0F52BA',
-                data: [{y:12129572, name :'2000 : 3 premiers pays d\'origine : Afghanistan, Burundi, Irak'},
-                       {y:12116835, name :'2001 : 3 premiers pays d\'origine : Afghanistan, Burundi, Irak'} ,
-                       {y:10594055, name :'2002 : 3 premiers pays d\'origine : Afghanistan, Burundi, Soudan'} ,
-                       {y:9592795, name :'2003 : 3 premiers pays d\'origine : Afghanistan, Soudan, Burundi'},
-                       {y:9573397, name :'2004 : 3 premiers pays d\'origine : Afghanistan, Soudan, Burundi'} ,
-                       {y:8661994, name :'2005 : 3 premiers pays d\'origine : Afghanistan, Soudan, Burundi'} ,
-                       {y:9877703, name :'2006 : 3 premiers pays d\'origine : Afghanistan, Irak, Soudan'} ,
-                       {y:11390930, name :'2007 : 3 premiers pays d\'origine : Afghanistan, Irak, Colombie'} ,
-                       {y:10489812, name :'2008 : 3 premiers pays d\'origine : Afghanistan, Irak, Somalie'} ,
-                        {y:10396538, name :'2009 : 3 premiers pays d\'origine : Afghanistan, Irak, Somalie'} ,
-                        {y:10549681, name :'2010 : 3 premiers pays d\'origine : Afghanistan, Irak, Somalie'} ,
-                        {y:10404804, name :'2011 : 3 premiers pays d\'origine : Afghanistan, Irak, Somalie'} ,
-                         {y:10497957, name :'2012 : 3 premiers pays d\'origine : Afghanistan, Somalie, Irak'} ,
-                         {y:11699279, name :'2013 : 3 premiers pays d\'origine : Afghanistan, Syrie, Somalie'} ,
-                         {y:14385316, name :'2014 : 3 premiers pays d\'origine : Syrie,Afghanistan, Somalie'} ,
-                         {y:16121427, name :'2015 : 3 premiers pays d\'origine : Syrie,Afghanistan, Somalie'}]
+                data: [{y:12129572, name :'Les 3 premiers pays d\'origine des réfugiés en 2000 : Afghanistan, Burundi, Irak'},
+                       {y:12116835, name :'Les 3 premiers pays d\'origine des réfugiés en 2000 : Afghanistan, Burundi, Irak'} ,
+                       {y:10594055, name :'Les 3 premiers pays d\'origine des réfugiés en 2000 : Afghanistan, Burundi, Soudan'} ,
+                       {y:9592795, name :'Les 3 premiers pays d\'origine des réfugiés en 2003 : Afghanistan, Soudan, Burundi'},
+                       {y:9573397, name :'Les 3 premiers pays d\'origine des réfugiés en 2004 : Afghanistan, Soudan, Burundi'} ,
+                       {y:8661994, name :'Les 3 premiers pays d\'origine des réfugiés en 2005 : Afghanistan, Soudan, Burundi'} ,
+                       {y:9877703, name :'Les 3 premiers pays d\'origine des réfugiés en 2006 : Afghanistan, Irak, Soudan'} ,
+                       {y:11390930, name :'Les 3 premiers pays d\'origine des réfugiés en 2007 : Afghanistan, Irak, Colombie'} ,
+                       {y:10489812, name :'Les 3 premiers pays d\'origine des réfugiés en 2008 : Afghanistan, Irak, Somalie'} ,
+                        {y:10396538, name :'Les 3 premiers pays d\'origine des réfugiés en 2009 : Afghanistan, Irak, Somalie'} ,
+                        {y:10549681, name :'Les 3 premiers pays d\'origine des réfugiés en 2010 : Afghanistan, Irak, Somalie'} ,
+                        {y:10404804, name :'Les 3 premiers pays d\'origine des réfugiés en 2011 : Afghanistan, Irak, Somalie'} ,
+                         {y:10497957, name :'Les 3 premiers pays d\'origine des réfugiés en 2012 : Afghanistan, Somalie, Irak'} ,
+                         {y:11699279, name :'Les 3 premiers pays d\'origine des réfugiés en 2013 : Afghanistan, Syrie, Somalie'} ,
+                         {y:14385316, name :'Les 3 premiers pays d\'origine des réfugiés en 2014 : Syrie, Afghanistan, Somalie'} ,
+                         {y:16121427, name :'Les 3 premiers pays d\'origine des réfugiés en 2015 : Syrie, Afghanistan, Somalie'}]
             }, { type : 'spline',
                  color: '#D7837F',
                 name: 'Déplacés internes',
                 data: [
-                  { y: 5998501,
-            			name:'2000: '
-        }, { y: 5096502,
-            			name:'2001: Afghanistan'
-        }, 
-                   4646641, {y:4181701, name :'2003 : Irak'},5426539, 6616791, {        y: 12794268,
-            			name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire',
-            			marker: {
-                         radius: 10,
-                             symbol: 'url(explosion.png)'
-            }
-        },   13740317, 14442227, 15628057, 14697804, {
-            y: 15473378,
-             name:'2011, début du conflit syrien',
-            marker: {
-                         radius: 10,
-                             symbol: 'url(explosion.png)'
-            }
-        }, 17670368 , 23925555,32274619,37494172]
+                  {y: 5998501,	name:'2000: '}, 
+                  {y: 5096502, name:'2001: Afghanistan'}, 
+                  {y: 4646641, name:'2002: Afghanistan'}, 
+                  {y: 4181701, name :'2003 : Irak'},
+                  {y: 5426539, name :'2004 : Irak'},
+                  {y: 6616791, name :'2005 : Irak'},
+                  {y: 12794268,name:'2006: Rép. Dem. Congo, Ouganda, Côte d\'Ivoire', marker: {radius: 10,symbol: 'url(explosion.png)'}},  
+                  {y: 13740317, name :'2007 : Irak'},
+                  {y: 14442227, name :'2008 : Irak'},
+                  {y: 15628057, name :'2009 : Irak'},
+                  {y:14697804, name :'2010 : Irak'},
+                  {y: 15473378, name:'2011, début du conflit syrien', marker: {radius: 10, symbol: 'url(explosion.png)'}},
+                  17670368 , 23925555,32274619,37494172]
             }, { type : 'spline',
                 color: '#29AB87',
                 name: 'Demandeurs d\'asile',
