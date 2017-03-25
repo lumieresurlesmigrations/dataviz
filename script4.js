@@ -58,35 +58,35 @@ $(function () {
                        name:'1989: Chute du mur de Berlin',
                        marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol:'url(explosion.png)'
                        }
                        }, 
                        {y: 54813, 
                        name:'1991: Début de la guerre civile en ex-Yougoslavie',
                        marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol: 'url(explosion.png)'
                        }
                        },                       
                        {y: 47380,
                        name:'1991: Chute de l\'URSS',
                        marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol: 'url(explosion.png)'
                        }
                        }, 39835, 35406, 32413, 
                        {y: 25036,
                        name: '1995: Fin de la guerre en Bosnie',
                        marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol: 'url(explosion.png)'
                        }                   
                        }, 21122, 22637, 
                        {y: 22990, 
                        name: '1998: Poursuite des conflits en ex-Yougoslavie (guerre du Kosovo)',
                        marker: {
                          radius: 10,
-                             symbol: 'circle'
+                             symbol: 'url(explosion.png)'
                        } 
                        },
                     31855, 39775, 48652, 52877, 54429, 57616, 52066, 34853, 29937, 34258, 38803, 41619, 45654, 47467, 51715, 50952, 64942]
