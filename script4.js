@@ -254,7 +254,22 @@ $(function () {
             		symbol: 'square'
         								},
                	color: '#0F52BA',
-                data: [{y:12129572, name :'2000 : Afghanistan, Burundi, Irak'},{y:12116835, name :'2001 : Afghanistan, Burundi, Irak'} ,{y:10594055, name :'2002 : Afghanistan, Burundi, Soudan'} , {y:9592795, name :'2003 : Afghanistan,Soudan, Burundi'},{y:9573397, name :'2004 : Afghanistan,Soudan, Burundi'} ,{y:8661994, name :'2005 : Afghanistan,Soudan, Burundi'} ,{y:9877703, name :'2006 : Afghanistan,Irak, Soudan'}  ,{y:11390930, name :'2007 : Afghanistan,Irak, Colombie'} , 10489812, 10396538, 10549681, 10404804, 10497957, 11699279,14385316,16121427]
+                data: [{y:12129572, name :'2000 : Afghanistan, Burundi, Irak'},
+                       {y:12116835, name :'2001 : Afghanistan, Burundi, Irak'} ,
+                       {y:10594055, name :'2002 : Afghanistan, Burundi, Soudan'} ,
+                       {y:9592795, name :'2003 : Afghanistan, Soudan, Burundi'},
+                       {y:9573397, name :'2004 : Afghanistan, Soudan, Burundi'} ,
+                       {y:8661994, name :'2005 : Afghanistan, Soudan, Burundi'} ,
+                       {y:9877703, name :'2006 : Afghanistan, Irak, Soudan'} ,
+                       {y:11390930, name :'2007 : Afghanistan, Irak, Colombie'} ,
+                       {y:10489812, name :'2008 : Afghanistan, Irak, Somalie'} ,
+                        {y:10396538, name :'2009 : Afghanistan, Irak, Somalie'} ,
+                        {y:10549681, name :'2010 : Afghanistan, Irak, Somalie'} ,
+                        {y:10404804, name :'2011 : Afghanistan, Irak, Somalie'} ,
+                         {y:10497957, name :'2012 : Afghanistan, Somalie, Irak'} ,
+                         {y:11699279, name :'2013 : Afghanistan, Syrie, Somalie'} ,
+                         {y:14385316, name :'2014 : Syrie,Afghanistan, Somalie'} ,
+                         {y:16121427, name :'2015 : Syrie,Afghanistan, Somalie'}]
             }, { type : 'spline',
                  color: '#D7837F',
                 name: 'Déplacés internes',
