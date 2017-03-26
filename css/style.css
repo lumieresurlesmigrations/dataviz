@@ -1420,13 +1420,13 @@ border-radius:150px;
 -moz-border-radius:150px;
 -webkit-border-radius:150px;
 border-radius:150px;
-	width:60%;
+	width:70%;
 }
 
 .roundedImage
 {   display: flex;
     flex-direction: row;
-	justify-content:space-between;
+	justify-content:flex-start;
    align-items:center;
    width:700px; 
    height:200px;
