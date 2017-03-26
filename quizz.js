@@ -82,13 +82,37 @@
             "question"      :   "En 2014, quelle est la part des migrants décédés dans le monde qui ont péri en Méditerranée ?",
             "image"         :   "",
             "choices"       :   [
-                                   "Moins de 10 %",
+                                   "Moins de 25 %",
                                    "Entre 25 % et 50 %",
                                    "Entre 50 % et 75 %",
                                    "75 % ou plus"
                                 ],
             "correct"       :   "75 % ou plus",
             "explanation"   :   "En 2014, plus de 75 % des migrants décédés dans le monde ont péri en Méditerranée.",
+        },
+           {
+            "question"      :   "En 2012, quelle était la part des immigrés entré en France qui étaient au moins titulaires d'un diplôme de niveau baccalauréat?",
+            "image"         :   "",
+            "choices"       :   [
+                                   "Moins de 25 %",
+                                   "Entre 25 % et 50 %",
+                                   "Entre 50 % et 75 %",
+                                   "75 % ou plus"
+                                ],
+            "correct"       :   "Entre 50 % et 75%",
+            "explanation"   :   " En 2012, 63 % des immigrés entrés en France sont au moins titulaires d'un diplôme de niveau baccalauréat.",
+        },
+             {
+            "question"      :   "En 2012, quelle était la part des immigrés entré en France d'origine tunisienne, algérienne ou marocaine qui avaient un niveau d'éducation supérieur à la moyenne dans leurs pays respectifs?",
+            "image"         :   "",
+            "choices"       :   [
+                                   "Moins de 10 %",
+                                   "Entre 25 % et 50 %",
+                                   "Entre 50 % et 75 %",
+                                   "75 % ou plus"
+                                ],
+            "correct"       :   "Entre 50 % et 75%",
+            "explanation"   :   "En 2012, entre 5% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs ",
         },
     ];
     /******* No need to edit below this line *********/
