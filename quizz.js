@@ -99,7 +99,7 @@
                                    "Entre 50 % et 75 %",
                                    "75 % ou plus"
                                 ],
-            "correct"       :   "Entre 50 % et 75%",
+            "correct"       :   "Entre 50 % et 75 %",
             "explanation"   :   " En 2012, 63 % des immigrés entrés en France sont au moins titulaires d'un diplôme de niveau baccalauréat.",
         },
              {
@@ -111,7 +111,7 @@
                                    "Entre 50 % et 75 %",
                                    "75 % ou plus"
                                 ],
-            "correct"       :   "Entre 50 % et 75%",
+            "correct"       :   "Entre 50 % et 75 %",
             "explanation"   :   "En 2012, entre 5% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs ",
         },
     ];
