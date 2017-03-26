@@ -768,7 +768,7 @@ $(document).ready(function(){
          .attr("y", function(d, i) {
            return ((h + oR) / 3 + oR * 1.5 * Math.sin((i - 1) * 45 / 180 * 3.1415926));
          })
-         .attr("font-size", 8)
+         .attr("font-size", 12)
          .style("opacity", 0.5);
 
        t.selectAll(".childBubble" + k)
@@ -849,7 +849,7 @@ $(document).ready(function(){
            return ((h + oR) / 3 + signSide * oR * 2.5 * Math.sin((i - 1) * 45 / 180 * 3.1415926));
          })
          .attr("font-size", function() {
-           return (k == i) ? 12 : 6;
+           return (k == i) ? 12 : 3;
          })
          .style("opacity", function() {
            return (k == i) ? 1 : 0;
