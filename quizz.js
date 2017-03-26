@@ -54,6 +54,18 @@
             "correct"       :   "Entre 70 % et 90 %",
             "explanation"   :   "73 % des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes.",
         },
+        {
+             "question"      :   "Combien de réfugiés la France a-t-elle accueilli dans le cadre des accords européens de relocalisation d'urgence ?",
+            "image"         :   "",
+            "choices"       :   [
+                                    "Moins de 3 000",
+                                    "Entre 3 000 et 6 000",
+                                    "Entre 6 000 et 10 000",
+                                    "Plus de 10 000"
+                                ],
+            "correct"       :   "Entre 3 000 et 6 000",
+            "explanation"   :   "En date du 22 mars 2017, la France a accueilli 5 490 réfugiés dans le cadre de ces accords, dont 2 476 qui étaient arrivés par la Grèce et 282 par l'Italie. Il reste donc à la France à accueillir 16 956 réfugiés pour respecter les quotas européens.",
+        },       
          {
             "question"      :   "Combien touchent les passeurs pour une traversée de la Méditerranée ?",
             "image"         :   "",
@@ -91,7 +103,7 @@
             "explanation"   :   "En 2014, plus de 75 % des migrants décédés dans le monde ont péri en Méditerranée.",
         },
            {
-            "question"      :   "En 2012, quelle était la part des immigrés entré en France qui étaient au moins titulaires d'un diplôme de niveau baccalauréat?",
+            "question"      :   "En 2012, quelle était la part des immigrés entrés en France qui étaient au moins titulaires d'un diplôme de niveau baccalauréat?",
             "image"         :   "",
             "choices"       :   [
                                    "Moins de 25 %",
@@ -103,7 +115,7 @@
             "explanation"   :   " En 2012, 63 % des immigrés entrés en France sont au moins titulaires d'un diplôme de niveau baccalauréat.",
         },
              {
-            "question"      :   "En 2012, quelle était la part des immigrés entré en France d'origine tunisienne, algérienne ou marocaine qui avaient un niveau d'éducation supérieur à la moyenne dans leurs pays respectifs?",
+            "question"      :   "En 2012, quelle était la part des immigrés entrés en France d'origine tunisienne, algérienne ou marocaine qui avaient un niveau d'éducation supérieur à la moyenne dans leurs pays respectifs?",
             "image"         :   "",
             "choices"       :   [
                                    "Moins de 10 %",
@@ -112,7 +124,7 @@
                                    "75 % ou plus"
                                 ],
             "correct"       :   "Entre 50 % et 75 %",
-            "explanation"   :   "En 2012, entre 5% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs ",
+            "explanation"   :   "En 2012, entre 50% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs ",
         },
     ];
     /******* No need to edit below this line *********/
@@ -217,7 +229,7 @@
             $('#question').empty();
             $('#choice-block').empty();
             $('#submitbutton').remove();
-            $('#question').text("Vous avez " + score + " réponse sur " + quiz.length + " correctes.");
+            $('#question').text("Vous avez " + score + " réponse(s) sur " + quiz.length + " correctes.");
             $(document.createElement('h2')).css({'text-align':'center', 'font-size':'4em'}).text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');
         }
         /**
