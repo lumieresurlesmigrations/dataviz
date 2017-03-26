@@ -1391,7 +1391,7 @@ height:800px;
   /*border: 1px solid #000000;*/
   padding: 1em;
   display: flex;
-  margin:10px;
+  margin:40px;
   border-radius: 25px;
   flex-direction: row;
   /* align-items:center;*/
@@ -1440,7 +1440,9 @@ border-radius:150px;
 .gen 
 {display:flex;
 flex-direction:row;
-justify-content: space-between;}
+justify-content: space-between;
+margin-top:40px;
+margin-bottom:40px;}
 
 .gen2 
 {   display: flex;
