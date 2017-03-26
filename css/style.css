@@ -1391,10 +1391,10 @@ height:800px;
   /*border: 1px solid #000000;*/
   padding: 1em;
   display: flex;
-  margin:40px;
+  margin:10px;
   border-radius: 25px;
   flex-direction: row;
-  /* align-items:center;*/
+align-items: flex-start;
 	border:3px solid white;
    /*box-shadow: inset -6px 6px 4px black;*/
    background-color: rgba(7,86,152,0.8);
