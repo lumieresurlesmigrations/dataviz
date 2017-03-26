@@ -280,8 +280,8 @@
   margin-right: auto; width:100%";>
 	<font >        Depuis que vous avez ouvert cette page</font>
 <span id="counter">0000</span>
-
-<font> personnes dans le monde ont été déplacées pour cause de conflits ou de catastrophes climatiques (<a href="http://www.unhcr.org/576408cd7">UNHCR</a>). </font>
+<font> personnes dans le monde ont été déplacées pour cause de conflits ou de catastrophes climatiques 
+	(<a href="http://www.unhcr.org/576408cd7">UNHCR</a>). </font>
 	 </div>
 <script type="text/javascript">
 counterID=setInterval(counterUpdate, 2500)
@@ -295,12 +295,8 @@ counterID=setInterval(counterUpdate, 2500)
 <!-- <div class="gen2">
 
     <img class="element22" width="100" height="100" src="inconnu.jpg" alt="" style="border:2px black solid; margin-left:15px;   box-shadow: 3px 3px 3px black;"/>
-
 	<div class="element222" style="z-index: 1;"> <h3 class="triangle-right left0" >  Ce que nos candidats ont dit         
-
 </h3> 
-
-
 </div>
 </div>
 
@@ -327,13 +323,9 @@ illégaux.
 <div class="gen">
 
 <div class="roundedImage"> 
-
     <img class="element" width="100" height="100" data-toggle="tooltip" data-placement="left" title="François Fillon" src="fillon.png" alt="" style="border:2px #d1e231 solid; margin-left:15px; "/>
-
 	<div class="element2"> <p class="triangle-right left" style="font-style: italic;">L'immense majorité des migrants en France sont des hommes et des femmes qui fuient la pauvreté et non la guerre.
-
 </p> </div>
-
 
 </div>
 		
@@ -345,9 +337,7 @@ illégaux.
 <div class="gen">
 
 <div class="roundedImage" > 
-
     <img class="element" width="100" height="100" data-toggle="tooltip"  data-placement="left" title="Emmanuel Macron" src="macron.png" alt="" style="border:2px #933d41 solid; margin-left:15px;  "/>
-
   <div class="element2"> <p class="triangle-right left0" style="font-style: italic;">Chaque année, 200 000 titres de séjours sont délivrés en France.
 
 </p> </div>
@@ -363,9 +353,7 @@ illégaux.
 <div class="gen">
 
 <div class="roundedImage" > 
-
     <img class="element" width="100" height="100" data-toggle="tooltip"  data-placement="left" title="Benoit Hamon" src="hamon.png" alt="" style="border:2px #009688 solid; margin-left:15px;  "/>
-
   <div class="element2"> <p class="triangle-right left3 " style="font-style: italic;">En France, on a actuellement 250000 entrées et 200000 départs, soit un solde migratoire positif de 500000.
 
 </p> </div>
@@ -382,9 +370,7 @@ illégaux.
 <div class="gen">
 
 <div class="roundedImage" > 
-
     <img class="element" width="100" height="100" data-toggle="tooltip"  data-placement="left" title="Jean-Luc Mélenchon" src="melenchon.png" alt="" style="border:2px #0f52ba solid; margin-left:15px;  "/>
-
   <div class="element2"> <p class="triangle-right left4" style="font-style: italic;">L’immigration est un exil forcé.
 
 </p> </div>
@@ -617,7 +603,7 @@ $(document).ready(function(){
    h = Math.ceil(w / nTop * 3);
    svgContainer.style("height", h + "px");
 
-   var colVals = d3.scale.category10();
+   var colVals = d3.scale.category20b();
 
    bubbleObj.append("circle")
      .attr("class", "topBubble")
@@ -634,7 +620,7 @@ $(document).ready(function(){
      .style("fill", function(d, i) {
        return colVals(i);
      }) // #1f77b4
-     .style("opacity", 0.5)
+     .style("opacity", 0.55)
      .on("mouseover", function(d, i) {
        return activateBubble(d, i);
      });
