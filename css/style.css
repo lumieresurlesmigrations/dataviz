@@ -1490,7 +1490,8 @@ height:100%;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: transparent
+  background-color: transparent;
+height:100%:
 }
 
   .element + .tooltip > .tooltip-inner {
