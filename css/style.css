@@ -48,8 +48,7 @@ width:100%;
 }
 
 	ul.list li{
-	  width: auto;
-	  float: left;
+  display: inline;
 	}
 
 	body, input, select, textarea {
