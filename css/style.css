@@ -1532,7 +1532,7 @@ height:100%;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-        .containere {
+ /*       .containere {
             max-width: 32rem;
             margin-left: auto;
             margin-right: auto;
@@ -1547,7 +1547,7 @@ height:100%;
             border: 0;
         }
       
-
+*/
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
