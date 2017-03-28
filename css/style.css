@@ -8,6 +8,39 @@
  @import url('https://fonts.googleapis.com/css?family=Muli:200');
 /*import style bubble*/
 
+#animated {
+  animation-duration: 3s;
+  animation-name: animation;
+}
+
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.3% { -webkit-transform: matrix3d(2.293, 0, 0, 0, 0, 2.293, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(2.293, 0, 0, 0, 0, 2.293, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  8.61% { -webkit-transform: matrix3d(3.529, 0, 0, 0, 0, 3.529, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3.529, 0, 0, 0, 0, 3.529, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.91% { -webkit-transform: matrix3d(4.212, 0, 0, 0, 0, 4.212, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.212, 0, 0, 0, 0, 4.212, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  17.22% { -webkit-transform: matrix3d(4.382, 0, 0, 0, 0, 4.382, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.382, 0, 0, 0, 0, 4.382, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  28.33% { -webkit-transform: matrix3d(4.083, 0, 0, 0, 0, 4.083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.083, 0, 0, 0, 0, 4.083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  39.44% { -webkit-transform: matrix3d(3.975, 0, 0, 0, 0, 3.975, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3.975, 0, 0, 0, 0, 3.975, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  61.66% { -webkit-transform: matrix3d(4.002, 0, 0, 0, 0, 4.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.002, 0, 0, 0, 0, 4.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  83.98% { -webkit-transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.3% { -webkit-transform: matrix3d(2.293, 0, 0, 0, 0, 2.293, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(2.293, 0, 0, 0, 0, 2.293, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  8.61% { -webkit-transform: matrix3d(3.529, 0, 0, 0, 0, 3.529, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3.529, 0, 0, 0, 0, 3.529, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.91% { -webkit-transform: matrix3d(4.212, 0, 0, 0, 0, 4.212, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.212, 0, 0, 0, 0, 4.212, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  17.22% { -webkit-transform: matrix3d(4.382, 0, 0, 0, 0, 4.382, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.382, 0, 0, 0, 0, 4.382, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  28.33% { -webkit-transform: matrix3d(4.083, 0, 0, 0, 0, 4.083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.083, 0, 0, 0, 0, 4.083, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  39.44% { -webkit-transform: matrix3d(3.975, 0, 0, 0, 0, 3.975, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(3.975, 0, 0, 0, 0, 3.975, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  61.66% { -webkit-transform: matrix3d(4.002, 0, 0, 0, 0, 4.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4.002, 0, 0, 0, 0, 4.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  83.98% { -webkit-transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(4, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+
 #mainBubble {
   background: #fff;
   border: solid 0px #ddd;
