@@ -14,6 +14,13 @@ p{
   animation-name: animation;
 }
 
+#animation{
+  animation-duration: 3s;
+  animation-name: animation;
+}
+
+
+
 
 @-webkit-keyframes animation { 
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
