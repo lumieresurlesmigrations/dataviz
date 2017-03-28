@@ -179,8 +179,8 @@
          */
      function processQuestion(choice){
             if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
-                $('.choice').eq(choice).css({'background-color':'#f4cb33'});
-                $('#explanation').html('<strong>Bonne réponse!</strong>' + htmlEncode(quiz[currentquestion]['explanation'])).css({'color':'#f4cb33'});
+                $('.choice').eq(choice).css({'background-color':'#146b01'});
+                $('#explanation').html('<strong>Bonne réponse!</strong>' + htmlEncode(quiz[currentquestion]['explanation'])).css({'color':'#146b01'});
                 score++;
             } else {
                 $('.choice').eq(choice).css({'background-color':'#D92623'});
