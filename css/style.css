@@ -5,13 +5,14 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Gabriela')
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /*import style bubble*/
 
 #mainBubble {
   background: #fff;
   border: solid 0px #ddd;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0);
-  font-family: 'Arapey', serif;
+  font-family: 'Roboto', serif;
   font-size: 20px;
   height: 900px;
   position: relative;
