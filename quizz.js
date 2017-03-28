@@ -184,7 +184,7 @@
                 score++;
             } else {
                 $('.choice').eq(choice).css({'background-color':'#D92623'});
-                $('#explanation').html('<strong>Mauvaise réponse!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+                $('#explanation').html('<red>Mauvaise réponse!</red> ' + htmlEncode(quiz[currentquestion]['explanation']));
             }
                 currentquestion++;
             $('#submitbutton').html('QUESTION SUIVANTE &raquo;').on('click', function(){
