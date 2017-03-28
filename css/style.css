@@ -47,6 +47,11 @@ width:100%;
 
 }
 
+	ul.list li{
+	  width: auto;
+	  float: left;
+	}
+
 	body, input, select, textarea {
 		color: #444;
 		font-family: 'Muli', serif;
