@@ -8,8 +8,9 @@
  @import url('https://fonts.googleapis.com/css?family=Muli:200');
 /*import style bubble*/
 
-#animated {
+p{
   animation-duration: 3s;
+ -webkit-animation-name: animation;
   animation-name: animation;
 }
 
