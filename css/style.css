@@ -49,6 +49,7 @@ width:100%;
 
 	ul.list li{
   display: inline;
+    list-style: none;
 	}
 
 	body, input, select, textarea {
