@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Gabriela')
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
- @import url('https://fonts.googleapis.com/css?family=Muli:300');
+ @import url('https://fonts.googleapis.com/css?family=Muli:200');
 /*import style bubble*/
 
 #mainBubble {
@@ -1361,7 +1361,7 @@ height:800px;
 }
 
 .paraxify.intermede-2{
-background: url("../images/J3.jpeg");
+background: url("../images/F3.jpg");
 height:800px;
   background-attachment: fixed;
   background-position: center;
