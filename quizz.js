@@ -180,11 +180,11 @@
      function processQuestion(choice){
             if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
                 $('.choice').eq(choice).css({'background-color':'#50D943'});
-                $('#explanation').html('<strong>Bonne réponse!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+                $('#explanation').html('<strong>Bonne réponse!</strong>' + htmlEncode(quiz[currentquestion]['explanation'])).css({'background-color':'#50D943'});
                 score++;
             } else {
                 $('.choice').eq(choice).css({'background-color':'#D92623'});
-                $('#explanation').html('<red>Mauvaise réponse!</red> ' + htmlEncode(quiz[currentquestion]['explanation']));
+                $('#explanation').html('<strong>Mauvaise réponse!</strong> ' + htmlEncode(quiz[currentquestion]['explanation'])).css({'background-color':'#D92623'});
             }
                 currentquestion++;
             $('#submitbutton').html('QUESTION SUIVANTE &raquo;').on('click', function(){
