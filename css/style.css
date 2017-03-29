@@ -1409,6 +1409,8 @@ align-items: flex-start;
    color: black;
 	min-width:300px;
 }
+
+
     
 /*.roundedImage{
     overflow:hidden;
@@ -1464,7 +1466,24 @@ border-radius:150px;
   box-shadow: -3px 3px 6px black;*/
 
 	
-   padding: 2em;
+   padding: 100px;
+}
+	
+	.devrait1 {
+	font-size:90%;
+ width: 50%;
+  /*border: 1px solid #000000;*/
+  padding: 100px;
+  display: flex;
+  margin:10px;
+  border-radius: 25px;
+  flex-direction: row;
+align-items: flex-start;
+	border:3px solid white;
+   /*box-shadow: inset -6px 6px 4px black;*/
+   background-color: rgba(7,86,152,0.8);
+   color: black;
+	min-width:300px;
 }
 }
 
