@@ -1448,6 +1448,7 @@ border-radius:150px;
 .gen 
 {display:flex;
 flex-direction:row;
+flex-wrap:wrap;
 justify-content: space-between;
 margin-top:40px;
 margin-bottom:40px;}
