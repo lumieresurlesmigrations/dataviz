@@ -109,7 +109,7 @@ $(function () {
 $(function () {
 
     Highcharts.setOptions({
-     colors: ['#29AB87', '#d69328', '#E48400', '#933D41']
+     colors: ['#29AB87', '#934c05', '#E48400', '#933D41']
     });
     var chart = new Highcharts.Chart({
 
