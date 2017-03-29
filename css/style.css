@@ -1490,6 +1490,8 @@ align-items: flex-start;
 	#mainBubble {
 		display:none;
 }
+	.modifmobil {width:100%;}
+	.dropmobil {display:none;}
 }
 .gen 
 {display:flex;
