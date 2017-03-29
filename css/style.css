@@ -1484,6 +1484,11 @@ align-items: flex-start;
    color: black;
 	/*min-width:300px;*/
 }
+	#mainBubble svg {
+ display:none;
+}
+	#mainBubble {
+		display:none;
 }
 
 .gen 
