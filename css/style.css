@@ -1395,9 +1395,9 @@ height:800px;
 }
 .devrait1 {
 	font-size:90%;
- width: 70%;
+ width: 50%;
   /*border: 1px solid #000000;*/
-  padding: 1em;
+  padding: 2em;
   display: flex;
   margin:10px;
   border-radius: 25px;
