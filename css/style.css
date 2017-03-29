@@ -1466,14 +1466,14 @@ border-radius:150px;
   box-shadow: -3px 3px 6px black;*/
 
 	
-   margin: 100px;
+   margin: 50px;
 }
 	
 	.devrait1 {
 	font-size:90%;
  width: 50%;
   /*border: 1px solid #000000;*/
-  margin: 100px;
+  margin: 50px;
   display: flex;
   border-radius: 25px;
   flex-direction: row;
