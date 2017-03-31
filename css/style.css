@@ -1407,7 +1407,7 @@ align-items: flex-start;
    /*box-shadow: inset -6px 6px 4px black;*/
    background-color: rgba(7,86,152,0.8);
    color: black;
-	min-width:300px;
+	/*min-width:300px;*/
 }
 
 
