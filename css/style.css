@@ -1494,6 +1494,8 @@ align-items: flex-start;
 	.dropmobil {display:none;}
 	.compteur {display:none;}
 	#compteur {display:none;}
+	.decaler{display:flex;flex-direction:row;}
+	#decaler{display:flex;flex-direction:row;}
 }
 .gen 
 {display:flex;
