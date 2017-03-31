@@ -1492,6 +1492,8 @@ align-items: flex-start;
 }
 	.modifmobil {width:100%;}
 	.dropmobil {display:none;}
+	.compteur {display:none;}
+	#compteur {display:none;}
 }
 .gen 
 {display:flex;
