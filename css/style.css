@@ -1458,9 +1458,9 @@ border-radius:150px;
     flex-direction: row;
 	justify-content:flex-start;
    align-items:center;
-   width:700px;
-	width:50%;
-   height:200px;
+   width:auto;
+	/*width:50%;*/
+   height:auto;
  /*border-left: 2px outset black;
  border-bottom: 2px inset black;
   box-shadow: -3px 3px 6px black;*/
