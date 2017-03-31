@@ -28,7 +28,7 @@
                                     "L'Allemagne"
                                 ],
             "correct"       :   "L'Allemagne",
-            "explanation"   :   "L'Allemagne a reçu 441 800 primo-demandes d’asile de ressortissants de pays tiers en 2015 (contre 172 945 en 2014), loin devant l’Italie (5ème place: 83 245 demandes), la France (6ème place: 70 570) et le Royaume-Uni (9ème place: moins de 38 370). ", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
+            "explanation"   :   "L'Allemagne a reçu 441 800 primo-demandes d’asile de ressortissants de pays tiers en 2015 (contre 172 945 en 2014), loin devant l’Italie (5ème place: 83 245 demandes), la France (6ème place: 70 570) et le Royaume-Uni (9ème place: moins de 38 370). (Source: Eurostat)", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
             "question"      :   "Quel est le premier pays d’origine des demandeurs d’asile (ressortissants de pays tiers) en UE en 2015 (premières demandes) ?",
@@ -40,7 +40,7 @@
                                     "L'Iraq"
                                 ],
             "correct"       :   "La Syrie",
-            "explanation"   :   "362 775 primo-demandeurs d’asile ressortissants de pays tiers en UE étaient Syriens en 2015 (contre 119 000 en 2014). Cela place la Syrie bien loin devant les autres pays d’origine (178 230 primo-demandeurs viennent d’Afghanistan qui arrive en 2ème place).",
+            "explanation"   :   "362 775 primo-demandeurs d’asile ressortissants de pays tiers en UE étaient Syriens en 2015 (contre 119 000 en 2014). Cela place la Syrie bien loin devant les autres pays d’origine (178 230 primo-demandeurs viennent d’Afghanistan qui arrive en 2ème place). (Source: Eurostat)",
         },
         {
              "question"      :   "Quel pourcentage de demandeurs d’asile (ressortissants de pays tiers) en UE sont des hommes en 2015 (premières demandes) ?",
@@ -52,7 +52,7 @@
                                     "Moins de 50 %"
                                 ],
             "correct"       :   "Entre 70 % et 90 %",
-            "explanation"   :   "73 % des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes.",
+            "explanation"   :   "73 % des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes. (Source: Eurostat)",
         },
         {
              "question"      :   "Combien de réfugiés la France a-t-elle accueilli dans le cadre des accords européens de relocalisation d'urgence ?",
@@ -64,7 +64,7 @@
                                     "Plus de 10 000"
                                 ],
             "correct"       :   "Entre 3 000 et 6 000",
-            "explanation"   :   "En date du 22 mars 2017, la France a accueilli 5 490 réfugiés dans le cadre de ces accords, dont 2 476 qui étaient arrivés par la Grèce et 282 par l'Italie. Il reste donc à la France à accueillir 16 956 réfugiés pour respecter les quotas européens.",
+            "explanation"   :   "En date du 22 mars 2017, la France a accueilli 5 490 réfugiés dans le cadre de ces accords, dont 2 476 qui étaient arrivés par la Grèce et 282 par l'Italie. Il reste donc à la France à accueillir 16 956 réfugiés pour respecter les quotas européens. (Source: Commission européenne)",
         },       
          {
             "question"      :   "Combien touchent les passeurs pour une traversée de la Méditerranée ?",
@@ -76,7 +76,7 @@
                                     "Plus de 2 000 €"
                                 ],
             "correct"       :   "Entre 700 € et 2 000 €",
-            "explanation"   :   "Les passeurs touchent entre 700 € et 2 000 € pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil).",
+            "explanation"   :   "Les passeurs touchent entre 700 € et 2 000 € pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil). (Source: vidéo Data Gueule)",
         },
          {
             "question"      :   "Combien coûte au maximum une traversée de la Manche à Calais ?",
@@ -88,7 +88,7 @@
                                     "20 000 €"
                                 ],
             "correct"       :   "20 000 €",
-            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et une seconde chance en cas d’échec...",
+            "explanation"   :   "Pour 20 000 €, le migrant a une place assise en cabine avec le conducteur du camion, et une seconde chance en cas d’échec... (Source: vidéo Data Gueule)",
         },
          {
             "question"      :   "En 2014, quelle est la part des migrants décédés dans le monde qui ont péri en Méditerranée ?",
@@ -100,7 +100,7 @@
                                    "75 % ou plus"
                                 ],
             "correct"       :   "75 % ou plus",
-            "explanation"   :   "En 2014, plus de 75 % des migrants décédés dans le monde ont péri en Méditerranée.",
+            "explanation"   :   "En 2014, plus de 75 % des migrants décédés dans le monde ont péri en Méditerranée. (Source: vidéo Data Gueule)",
         },
            {
             "question"      :   "En 2012, quelle était la part des immigrés entrés en France qui étaient au moins titulaires d'un diplôme de niveau baccalauréat?",
@@ -112,7 +112,7 @@
                                    "75 % ou plus"
                                 ],
             "correct"       :   "Entre 50 % et 75 %",
-            "explanation"   :   " En 2012, 63 % des immigrés entrés en France sont au moins titulaires d'un diplôme de niveau baccalauréat.",
+            "explanation"   :   " En 2012, 63 % des immigrés entrés en France sont au moins titulaires d'un diplôme de niveau baccalauréat. (Source: INED)",
         },
              {
             "question"      :   "En 2012, quelle était la part des immigrés entrés en France d'origine tunisienne, algérienne ou marocaine qui avaient un niveau d'éducation supérieur à la moyenne dans leurs pays respectifs?",
@@ -124,7 +124,7 @@
                                    "75 % ou plus"
                                 ],
             "correct"       :   "Entre 50 % et 75 %",
-            "explanation"   :   "En 2012, entre 50% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs ",
+            "explanation"   :   "En 2012, entre 50% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs. (Source: INED) ",
         },
     ];
     /******* No need to edit below this line *********/
