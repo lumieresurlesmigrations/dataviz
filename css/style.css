@@ -1458,9 +1458,9 @@ border-radius:150px;
     flex-direction: row;
 	justify-content:flex-start;
    align-items:center;
-   width:auto;
-	/*width:50%;*/
-   height:auto;
+ width:700px;
+ 	width:50%;
+   height:200px;
  /*border-left: 2px outset black;
  border-bottom: 2px inset black;
   box-shadow: -3px 3px 6px black;*/
@@ -1470,8 +1470,8 @@ border-radius:150px;
 }
 	
 	.devrait1 {
-	font-size:90%;
- width: 50%;
+	font-size:60%;
+ width: 60%;
   /*border: 1px solid #000000;*/
   margin: 100px;
   display: flex;
