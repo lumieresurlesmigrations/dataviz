@@ -79,7 +79,7 @@
             "explanation"   :   "Les passeurs touchent entre 700 € et 2 000 € pour une traversée de la Méditerranée, dans des conditions pourtant désastreuses puisque le gilet de sauvetage est en option (170 €) ainsi que le téléphone portable (250 € le coup de fil). (Source: vidéo Data Gueule)",
         },
          {
-            "question"      :   "Combien coûte au maximum une traversée de la Manche à Calais ?",
+            "question"      :   "Combien coûte au maximum une traversée de la Manche depuis Calais ?",
             "image"         :   "",
             "choices"       :   [
                                     "1 000 €",
