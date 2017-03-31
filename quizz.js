@@ -55,7 +55,7 @@
             "explanation"   :   "73 % des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes. (Source: Eurostat)",
         },
         {
-             "question"      :   "Combien de réfugiés la France a-t-elle accueilli dans le cadre des accords européens de relocalisation d'urgence ?",
+             "question"      :   "Combien de réfugiés la France a-t-elle accueilli dans le cadre des accords européens de relocalisation d'urgence de septembre 2015?",
             "image"         :   "",
             "choices"       :   [
                                     "Moins de 3 000",
@@ -64,7 +64,7 @@
                                     "Plus de 10 000"
                                 ],
             "correct"       :   "Entre 3 000 et 6 000",
-            "explanation"   :   "En date du 22 mars 2017, la France a accueilli 5 490 réfugiés dans le cadre de ces accords, dont 2 476 qui étaient arrivés par la Grèce et 282 par l'Italie. Il reste donc à la France à accueillir 16 956 réfugiés pour respecter les quotas européens. (Source: Commission européenne)",
+            "explanation"   :   "En date du 22 mars 2017, la France a accueilli 5 490 réfugiés dans le cadre de ces accords, dont 2 476 qui étaient arrivés par la Grèce et 282 par l'Italie. Il reste donc à la France à accueillir 16 956 réfugiés pour respecter les quotas européens d'ici fin 2017. (Source: Commission européenne)",
         },       
          {
             "question"      :   "Combien touchent les passeurs pour une traversée de la Méditerranée ?",
@@ -115,7 +115,7 @@
             "explanation"   :   " En 2012, 63 % des immigrés entrés en France sont au moins titulaires d'un diplôme de niveau baccalauréat. (Source: INED)",
         },
              {
-            "question"      :   "En 2012, quelle était la part des immigrés entrés en France d'origine tunisienne, algérienne ou marocaine qui avaient un niveau d'éducation supérieur à la moyenne dans leurs pays respectifs?",
+            "question"      :   "En 2012, quelle était la part des immigrés entrés en France d'origine tunisienne, algérienne ou marocaine qui avaient un niveau d'éducation supérieur à la moyenne de leur pays respectif?",
             "image"         :   "",
             "choices"       :   [
                                    "Moins de 10 %",
@@ -124,7 +124,7 @@
                                    "75 % ou plus"
                                 ],
             "correct"       :   "Entre 50 % et 75 %",
-            "explanation"   :   "En 2012, entre 50% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les sénégalais ou les vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leurs pays respectifs. (Source: INED) ",
+            "explanation"   :   "En 2012, entre 50% et 75% des immigrés d'origine tunisienne, algérienne ou marocaine avaient un niveau d'instruction supérieur à la moyenne de leurs pays respectifs. Le constat est d'ailleurs le même pour les Sénégalais ou les Vietnamiens. Seuls les immigrés d'origine serbe, turque, portugaise ou roumaine ont plus souvent des niveaux d'éducation inférieurs à la moyenne de leur pays respectif. (Source: INED) ",
         },
     ];
     /******* No need to edit below this line *********/
