@@ -109,6 +109,10 @@ list-style-type: none;
 		line-height: 1.5em;
 	}
 
+	.subtitle {font-size: 1.35em;
+		line-height: 1.5em;
+	}
+
 	h4 {
 		font-size: 1.23em;
 		line-height: 1.5em;
